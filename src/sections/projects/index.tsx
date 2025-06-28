@@ -2,6 +2,7 @@ import Card from '../../components/Cards'
 import './index.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import SectionTitle from '../../components/SectionTitle';
 
 function Projects() {
 
@@ -25,20 +26,23 @@ function Projects() {
   ]
 
   return (
-    <Carousel
-      showArrows={true}
-      showThumbs={false}
-      showStatus={false}
-      infiniteLoop={true}
-      autoPlay={false}
-      emulateTouch={true}
-    >
-      {cardsData.map((card, index) => (
-        <div key={index}>
-          <Card {...card} />
-        </div>
-      ))}
-    </Carousel>
+    <div className="projects">
+      <SectionTitle title={"Projetos"}/>
+      <Carousel
+        showArrows={true}
+        showThumbs={false}
+        showStatus={false}
+        infiniteLoop={true}
+        autoPlay={false}
+        emulateTouch={true}
+      >
+        {cardsData.map((card, index) => (
+          <div key={index}>
+            <Card {...card} />
+          </div>
+        ))}
+      </Carousel>
+    </div>
   );
 }
 

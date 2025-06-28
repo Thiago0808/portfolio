@@ -13,7 +13,7 @@ interface CardProps {
 function Card({ name, technologies, description, image, link }: CardProps) {
   return (
     <div className='card-container'>
-      <div className="">
+      <div className="card-inside-container">
         <div className="card-image">
           <img src={`${image}`} />
           <Button text="VER" href={link} />
