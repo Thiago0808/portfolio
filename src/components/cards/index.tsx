@@ -3,8 +3,6 @@ import Button from "../CardButton/index";
 import Tag from '../CardTag';
 
 interface CardProps {
-  date: string;
-  title: string;
   name: string;
   technologies: string[];
   description: string;
@@ -17,7 +15,7 @@ function Card({ name, technologies, description, image, link }: CardProps) {
     <div className='card-container'>
       <div className="">
         <div className="card-image">
-          <img src={`img/${image}`} />
+          <img src={`${image}`} />
           <Button text="VER" href={link} />
         </div>
 

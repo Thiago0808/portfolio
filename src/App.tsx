@@ -1,11 +1,12 @@
 import './App.css'
+import Projects from './sections/projects'
 
 function App() {
 
   return (
     <>
       {/* Sobre Mim */}
-      {/* Projetos */}
+      <Projects />
       {/* Formação */}
       {/* Experiências */}
       {/* Contatos */}
