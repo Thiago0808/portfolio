@@ -1,0 +1,27 @@
+.card-container {
+  padding: 1rem;
+  background-color: #1C2128;
+  color: white;
+  border-radius: 3%;
+  max-width: 1200px;
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 100%;
+}
+
+img{
+  max-width: 100%;
+  border-radius: 0.5%;
+}
+
+.card-info {
+  margin-top: 1.5rem;
+}
