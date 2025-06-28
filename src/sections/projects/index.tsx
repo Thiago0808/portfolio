@@ -1,5 +1,7 @@
 import Card from '../../components/Cards'
 import './index.css'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 function Projects() {
 
@@ -13,7 +15,7 @@ function Projects() {
       link: "/src/assets/img/faculmatch.png",
     },
     {
-      name: "Hello World",
+      name: "Hello",
       technologies: ["HTML"],
       description:
         "Não poderia ser diferente! Para qualquer dev, o primeiro passo é sempre esse. Com HTML puro, esse foi o primeiro site que desenvolvi. O objetivo principal era entender os fundamentos de um site — como as tags <title>, <p>, <h1> — e os conceitos básicos do processo de desenvolvimento, como o uso do VS Code, Go Live e execução local via localhost.",
@@ -23,15 +25,21 @@ function Projects() {
   ]
 
   return (
-    <>
+    <Carousel
+      showArrows={true}
+      showThumbs={false}
+      showStatus={false}
+      infiniteLoop={true}
+      autoPlay={false}
+      emulateTouch={true}
+    >
       {cardsData.map((card, index) => (
         <div key={index}>
           <Card {...card} />
         </div>
       ))}
-    
-    </>
-  )
+    </Carousel>
+  );
 }
 
 export default Projects
