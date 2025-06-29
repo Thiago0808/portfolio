@@ -22,3 +22,10 @@ h1{
 .h1-mid-left{
   padding-left: 10%;
 }
+
+.div-mid-right{
+  text-align: right;
+}
+.h1-mid-right{
+  padding-right: 10%;
+}

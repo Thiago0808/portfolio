@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/Header'
+import Experience from './sections/experience'
 import Education from './sections/formation'
 import Projects from './sections/projects'
 
@@ -12,7 +13,8 @@ function App() {
       <Projects />
       <hr />
       <Education />
-      {/* Formação */}
+      <hr />
+      <Experience />
       {/* Experiências */}
       {/* Contatos */}
     

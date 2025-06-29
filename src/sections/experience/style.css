@@ -1,0 +1,23 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.formations{
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .education{
+      width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .education{
+      width: 100%;
+  }
+}
