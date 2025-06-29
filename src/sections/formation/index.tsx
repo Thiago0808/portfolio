@@ -1,14 +1,15 @@
 import './style.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SectionTitle from '../../components/SectionTitle';
+import ExpansiveCard from '../../components/ExpansiveCard';
 
 function Education() {
 
   const cardsData = [
     {
-      title: "Curso X",
-      duration: "21-23",
-      location: "Garopaba",
+      title: "Curso Técnico Integrado ao Ensino Médio",
+      duration: "2021-2023",
+      location: "Garopaba SC",
       subjects: ['Algoritmos e Lógicas de Programação', 'Programação Orientada a Objetos'],
       description:
         "Minha experiência foi...",
@@ -22,7 +23,7 @@ function Education() {
       <div className="formations">
           {cardsData.map((card, index) => (
             <div key={index}>
-              {/* <Card {...card} /> */}
+              <ExpansiveCard {...card} />
             </div>
           ))}
       </div>
