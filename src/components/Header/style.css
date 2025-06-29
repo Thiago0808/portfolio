@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem 3rem; /* aumentei o padding lateral */
+  background-color: #0e1318;
+  color: white;
+  border-bottom: 2px solid #5a37a6;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.header-nav {
+  display: flex;
+  gap: 2rem; /* aumentei o espaço entre os links */
+  flex-wrap: wrap;
+  padding: 0.5rem 1rem; /* adicionei um leve padding */
+}
+
+.header-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.header-nav a:hover {
+  color: #a78bfa;
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .header-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .header-nav {
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem 0;
+  }
+}

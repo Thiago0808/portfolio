@@ -26,41 +26,41 @@ function Projects() {
   ]
 
   return (
-    <div className="projects">
+    <div className="projects" id="projetos">
       <SectionTitle title={"PROJETOS"}/>
       <div className="carousel">
-<Carousel
-  showArrows={true}
-  showThumbs={false}
-  showStatus={false}
-  infiniteLoop={true}
-  autoPlay={false}
-  emulateTouch={true}
-  renderArrowPrev={(onClickHandler, hasPrev, label) =>
-    hasPrev && (
-      <button
-        type="button"
-        onClick={onClickHandler}
-        title={label}
-        className="arrow arrow-prev"
-      >
-        ‹
-      </button>
-    )
-  }
-  renderArrowNext={(onClickHandler, hasNext, label) =>
-    hasNext && (
-      <button
-        type="button"
-        onClick={onClickHandler}
-        title={label}
-        className="arrow arrow-next"
-      >
-        ›
-      </button>
-    )
-  }
->
+        <Carousel
+          showArrows={true}
+          showThumbs={false}
+          showStatus={false}
+          infiniteLoop={true}
+          autoPlay={false}
+          emulateTouch={true}
+          renderArrowPrev={(onClickHandler, hasPrev, label) =>
+            hasPrev && (
+              <button
+                type="button"
+                onClick={onClickHandler}
+                title={label}
+                className="arrow arrow-prev"
+              >
+                ‹
+              </button>
+            )
+          }
+          renderArrowNext={(onClickHandler, hasNext, label) =>
+            hasNext && (
+              <button
+                type="button"
+                onClick={onClickHandler}
+                title={label}
+                className="arrow arrow-next"
+              >
+                ›
+              </button>
+            )
+          }
+        >
           {cardsData.map((card, index) => (
             <div key={index}>
               <Card {...card} />
