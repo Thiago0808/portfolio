@@ -1,5 +1,5 @@
 import Card from '../../components/Cards'
-import './index.css'
+import './style.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import SectionTitle from '../../components/SectionTitle';
@@ -27,21 +27,47 @@ function Projects() {
 
   return (
     <div className="projects">
-      <SectionTitle title={"Projetos"}/>
-      <Carousel
-        showArrows={true}
-        showThumbs={false}
-        showStatus={false}
-        infiniteLoop={true}
-        autoPlay={false}
-        emulateTouch={true}
+      <SectionTitle title={"PROJETOS"}/>
+      <div className="carousel">
+<Carousel
+  showArrows={true}
+  showThumbs={false}
+  showStatus={false}
+  infiniteLoop={true}
+  autoPlay={false}
+  emulateTouch={true}
+  renderArrowPrev={(onClickHandler, hasPrev, label) =>
+    hasPrev && (
+      <button
+        type="button"
+        onClick={onClickHandler}
+        title={label}
+        className="arrow arrow-prev"
       >
-        {cardsData.map((card, index) => (
-          <div key={index}>
-            <Card {...card} />
-          </div>
-        ))}
-      </Carousel>
+        ‹
+      </button>
+    )
+  }
+  renderArrowNext={(onClickHandler, hasNext, label) =>
+    hasNext && (
+      <button
+        type="button"
+        onClick={onClickHandler}
+        title={label}
+        className="arrow arrow-next"
+      >
+        ›
+      </button>
+    )
+  }
+>
+          {cardsData.map((card, index) => (
+            <div key={index}>
+              <Card {...card} />
+            </div>
+          ))}
+        </Carousel>
+      </div>
     </div>
   );
 }

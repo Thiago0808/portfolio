@@ -1,13 +1,15 @@
 .title-div{
   color: white;
-  margin-bottom: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   text-align: left;
   width: 100%;
+  font-family: "Menbere", sans-serif;
 }
 
 h1{
   font-weight: bolder;
   margin: 0;
-  padding-left: 10rem;
+  padding-left: 10%;
+  font-size:xx-large;
 }
