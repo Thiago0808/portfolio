@@ -3,6 +3,7 @@ import "./style.css";
 
 interface CourseCardProps {
   title: string;
+  place: string
   duration: string;
   location: string;
   subjects: string[];
@@ -10,7 +11,7 @@ interface CourseCardProps {
   image: string;
 }
 
-function ExpansiveCard({ title, duration, location, subjects, description, image }: CourseCardProps) {
+function ExpansiveCard({ title, place, duration, location, subjects, description, image }: CourseCardProps) {
   const [expanded, setExpanded] = useState(false);
 
   return (
@@ -19,14 +20,15 @@ function ExpansiveCard({ title, duration, location, subjects, description, image
         <img src={image} alt="Instituto Federal Logo" className="expansive-img" />
         <div className="expansive-info">
           <h3>{title}</h3>
-          <p><strong>Duração: </strong>{duration}</p>
+          <p><strong>Instituição: </strong>{place}</p>
 
           {expanded && (
             <>
+              <p><strong>Duração: </strong>{duration}</p>
               <p><strong>Localização: </strong>{location}</p>
               <p><strong>Matérias: </strong> 
                 <div>
-                  {subjects.join(', ')}
+                  {subjects.join(' | ')}
                 </div>
               </p>
               <p>{description}</p>

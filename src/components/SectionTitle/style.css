@@ -2,7 +2,6 @@
   color: white;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  text-align: left;
   width: 100%;
   font-family: "Menbere", sans-serif;
 }
@@ -10,6 +9,16 @@
 h1{
   font-weight: bolder;
   margin: 0;
-  padding-left: 10%;
   font-size:xx-large;
+}
+
+.div-center{
+  text-align: center;
+}
+
+.div-mid-left{
+  text-align: left;
+}
+.h1-mid-left{
+  padding-left: 10%;
 }

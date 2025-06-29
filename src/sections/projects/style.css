@@ -32,3 +32,15 @@
 .arrow-next {
   right: 15px;
 }
+
+@media (max-width: 1000px) {
+  .projects{
+      max-width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects{
+      max-width: 100%;
+  }
+}

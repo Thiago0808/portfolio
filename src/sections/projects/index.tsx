@@ -27,7 +27,7 @@ function Projects() {
 
   return (
     <div className="projects" id="projetos">
-      <SectionTitle title={"PROJETOS"}/>
+      <SectionTitle title={"PROJETOS"} positioning='mid-left'/>
       <div className="carousel">
         <Carousel
           showArrows={true}
