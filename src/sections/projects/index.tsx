@@ -9,19 +9,19 @@ function Projects() {
   const cardsData = [
     {
       name: "FaculMatch",
-      technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+      technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "MySQL"],
       description:
-        "Meu primeiro grande projeto, a FaculMatch começou como um projeto escolar, sendo um site na qual um estudante poderia através de filtros, encontrar a sua faculdade ideal. O projeto se expandiu para fora do IFSC, com domínio próprio, novas funcionalides, e agora com faculdades do país inteiro!",
+        "Meu primeiro grande projeto, a FaculMatch começou como um projeto escolar, sendo um site na qual um estudante poderia através de filtros, encontrar a sua faculdade ideal. O projeto se expandiu para fora do IFSC, novas funcionalides e faculdades do país inteiro!",
       image: "/src/assets/img/projects/faculmatch.png",
       link: "https://faculmatch.com/",
     },
     {
-      name: "Hello",
-      technologies: ["HTML"],
+      name: "Timeline",
+      technologies: ["React", "TypeScript"],
       description:
-        "Nsitevia localhost.",
-      image: "/src/assets/img/projects/faculmatch.png",
-      link: "/src/assets/img/faculmatch.png",
+        "A Linha do Tempo é um projeto onde apresento todos os meus pequenos projetos em um único repositório, focando principalmente nos projetos do meu curso técnico, mas também em meus projetos de treinamento, e futuros projetos da minha graduação.",
+      image: "/src/assets/img/projects/timeline.png",
+      link: "https://thiagomartins.dev/timeline",
     },
     {
       name: "Hello",

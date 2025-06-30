@@ -38,7 +38,7 @@
   color: #ffffff;
 }
 
-/* 
+
 .react {
   background-color: #61dafb;
   color: #20232a;
@@ -46,4 +46,9 @@
 
 .bootstrap {
   background-color: #7952b3;
-} */
+}
+
+.typescript {
+  background-color: #3178c6;
+  color: white;
+}
