@@ -39,7 +39,7 @@ function Experience() {
         'Desempenhei um papel essencial na comunicação efetiva com as turmas, garantindo a clareza nas informações relativas aos conteúdos e atividades programadas.',
         'Ministrei quase 60 aulas de reforço, proporcionando suporte aos alunos em diversos tópicos de matemática.',
       ],
-      image: "/src/assets/img/experience-dg.png",
+      image: "/src/assets/img/experience/ifsc.png",
     },
   ]
 
