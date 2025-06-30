@@ -8,12 +8,12 @@ function Projects() {
 
   const cardsData = [
     {
-      name: "Hello World",
-      technologies: ["HTML"],
+      name: "FaculMatch",
+      technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
       description:
-        "Não poderia ser diferente! Para qualquer dev, o primeiro passo é sempre esse. Com HTML puro, esse foi o primeiro site que desenvolvi. O objetivo principal era entender os fundamentos de um site — como as tags <title>, <p>, <h1> — e os conceitos básicos do processo de desenvolvimento, como o uso do VS Code, Go Live e execução local via localhost.",
-      image: "/src/assets/img/faculmatch.png",
-      link: "/src/assets/img/faculmatch.png",
+        "Meu primeiro grande projeto, a FaculMatch começou como um projeto escolar, sendo um site na qual um estudante poderia através de filtros, encontrar a sua faculdade ideal. O projeto se expandiu para fora do IFSC, com domínio próprio, novas funcionalides, e agora com faculdades do país inteiro!",
+      image: "/src/assets/img/projects/faculmatch.png",
+      link: "https://faculmatch.com/",
     },
     {
       name: "Hello",
