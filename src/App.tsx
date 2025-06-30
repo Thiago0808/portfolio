@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Experience from './sections/experience'
 import Education from './sections/formation'
 import Projects from './sections/projects'
+import Skills from './sections/skills'
 
 function App() {
 
@@ -10,12 +11,13 @@ function App() {
     <div className='container'>
       <Header />
       {/* Sobre Mim */}
+      <Skills />
+      <hr />
       <Projects />
       <hr />
       <Education />
       <hr />
       <Experience />
-      {/* Experiências */}
       {/* Contatos */}
     
     </div>
