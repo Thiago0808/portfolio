@@ -27,8 +27,8 @@ function Education() {
         'Tópicos Avançados em Informática'
       ],
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue orci, ultricies ut nisi at, dapibus viverra lacus. Donec ut arcu id ante mollis posuere vitae eu mi. Curabitur sed diam a orci egestas rhoncus. Nunc porta felis diam, eget porta massa posuere at. Proin ac purus eleifend, volutpat metus vel, molestie urna.",
-      image: "/src/assets/img/faculmatch.png",
+        "Minha experiência no IFSC Garopaba foi transformadora, sendo graças à Instituição que comecei minha carreira como programador. Lá tive toda minha base de dev, aprendendo frontend, backend, banco de dados, programação para dispositivos móveis, redes e sistemas, e informática como um todo.",
+      image: "/src/assets/img/formation/ifsc.png",
     },
     {
       title: "Curso Técnico de Informática Integrado ao Ensino Médio",
