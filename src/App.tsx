@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/Header'
+import About from './sections/about'
 import Experience from './sections/experience'
 import Education from './sections/formation'
 import Projects from './sections/projects'
@@ -10,7 +11,8 @@ function App() {
   return (
     <div className='container'>
       <Header />
-      {/* Sobre Mim */}
+      <About />
+      <hr />
       <Skills />
       <hr />
       <Projects />
