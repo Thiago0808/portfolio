@@ -19,9 +19,25 @@ function Projects() {
       name: "Hello",
       technologies: ["HTML"],
       description:
-        "Não poderia ser diferente! Para qualquer dev, o primeiro passo é sempre esse. Com HTML puro, esse foi o primeiro site que desenvolvi. O objetivo principal era entender os fundamentos de um site — como as tags <title>, <p>, <h1> — e os conceitos básicos do processo de desenvolvimento, como o uso do VS Code, Go Live e execução local via localhost.",
-      image: "/src/assets/img/faculmatch.png",
+        "Nsitevia localhost.",
+      image: "/src/assets/img/projects/faculmatch.png",
       link: "/src/assets/img/faculmatch.png",
+    },
+    {
+      name: "Hello",
+      technologies: ["HTML"],
+      description:
+        "Nsitevia localhost.",
+      image: "/src/assets/img/projects/faculmatch.png",
+      link: "/src/assets/img/faculmatch.png",
+    },
+    {
+      name: "Reptors Timequake",
+      technologies: ["HTML", "CSS", "JavaScript", "Vercel"],
+      description:
+        "Este projeto foi parte de uma Game Jam, com temas de terror, dinossauro e viagem no tempo. Feito em 2 semanas, se trata de um jogo de sobrevivência baseado em escolhas, no qual o jogador precisa chegar ao último dia para voltar para o presente.",
+      image: "/src/assets/img/projects/reptors.png",
+      link: "https://reptors-timequake.vercel.app/",
     },
   ]
 

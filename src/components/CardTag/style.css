@@ -33,6 +33,11 @@
   color: white;
 }
 
+.vercel {
+  background-color: #000000;
+  color: #ffffff;
+}
+
 /* 
 .react {
   background-color: #61dafb;
