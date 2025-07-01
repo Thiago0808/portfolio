@@ -5,41 +5,41 @@ import MySQLTable from '../../components/SkillsTable';
 
 const techData = [
   // Linguagens & Tecnologias
-  { name: "HTML", type: "Linguagem", time: "Mais de 1 ano" },
-  { name: "CSS", type: "Linguagem", time: "Mais de 1 ano" },
-  { name: "JavaScript", type: "Linguagem", time: "Mais de 1 ano" },
-  { name: "TypeScript", type: "Linguagem", time: "Mais de 1 ano" },
-  { name: "PHP", type: "Linguagem", time: "Mais de 1 ano" },
-  { name: "Java", type: "Linguagem", time: "Mais de 1 ano" },
-  { name: "Python", type: "Linguagem", time: "Mais de 1 ano" },
-  { name: "React", type: "Biblioteca", time: "Mais de 1 ano" },
-  { name: "React Native", type: "Biblioteca", time: "Mais de 1 ano" },
+  { name: "HTML", type: "Linguagem", time: "Mais de 2 anos" },
+  { name: "CSS", type: "Linguagem", time: "Mais de 2 anos" },
+  { name: "JavaScript", type: "Linguagem", time: "Mais de 2 anos" },
+  { name: "TypeScript", type: "Linguagem", time: "Mais de 6 meses" },
+  { name: "PHP", type: "Linguagem", time: "Mais de 2 anos" },
+  { name: "Java", type: "Linguagem", time: "6 meses" },
+  { name: "Python", type: "Linguagem", time: "Mais de 2 anos" },
+  { name: "React", type: "Biblioteca", time: "Mais de 6 meses" },
+  { name: "React Native", type: "Biblioteca", time: "Menos de 6 meses" },
 
   // IDEs
-  { name: "Visual Studio Code", type: "IDE", time: "Mais de 1 ano" },
-  { name: "PyCharm", type: "IDE", time: "Mais de 1 ano" },
+  { name: "Visual Studio Code", type: "IDE", time: "Mais de 2 anos" },
+  { name: "PyCharm", type: "IDE", time: "1 ano" },
 
   // Frameworks
-  { name: "Expo", type: "Framework", time: "Mais de 1 ano" },
-  { name: "Bootstrap", type: "Framework", time: "Mais de 1 ano" },
-  { name: "Flask", type: "Framework", time: "Mais de 1 ano" },
+  { name: "Expo", type: "Framework", time: "Menos de 6 meses" },
+  { name: "Bootstrap", type: "Framework", time: "Mais de 2 anos" },
+  { name: "Flask", type: "Framework", time: "Mais de 6 meses" },
 
   // Bibliotecas
-  { name: "Ajax", type: "Biblioteca", time: "Mais de 1 ano" },
+  { name: "Ajax", type: "Biblioteca", time: "6 meses" },
 
   // Banco de Dados
-  { name: "MySQL", type: "Banco de Dados", time: "Mais de 1 ano" },
-  { name: "MariaDB", type: "Banco de Dados", time: "Mais de 1 ano" },
-  { name: "phpMyAdmin", type: "Gerenciador de Banco", time: "Mais de 1 ano" },
+  { name: "MySQL", type: "Banco de Dados", time: "Mais de 2 anos" },
+  { name: "MariaDB", type: "Banco de Dados", time: "Mais de 2 anos" },
+  { name: "phpMyAdmin", type: "Gerenciador de Banco", time: "Mais de 2 anos" },
 
   // Servidores
   { name: "Vercel", type: "Servidor", time: "Mais de 1 ano" },
-  { name: "Sentora", type: "Servidor", time: "Mais de 1 ano" },
+  { name: "Sentora", type: "Servidor", time: "1 ano" },
   { name: "Hostinger", type: "Servidor", time: "Mais de 1 ano" },
 
   // Sistemas & DevOps
-  { name: "Linux", type: "Sistema Operacional", time: "Mais de 1 ano" },
-  { name: "Docker", type: "DevOps", time: "Mais de 1 ano" },
+  { name: "Linux", type: "Sistema Operacional", time: "Mais de 2 anos" },
+  { name: "Docker", type: "DevOps", time: "Mais de 6 meses" },
 ];
 
 function Skills() {
