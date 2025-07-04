@@ -9,7 +9,7 @@ function Experience() {
     {
       place: 'Del Grande',
       title: "Dev Full Stack Jr",
-      duration: "12/2024-Atual",
+      duration: "11/2024-Atual",
       paragraphs: [
         'Como Desenvolver Júnior na Del Grande, trabalho diariamente com Python, MySQL, React e TypeScript, em mais de 15 repositórios conectados ao GitLab e  mais de 80 de tabelas de banco de dados.',
         'Uma de minhas qualidades mais elogiadas na empresa é a atenção aos detalhes, analisando toda a quaisquer possibilidade de erro. Devido a essa atenção, consegui perceber e corrigir mais de 300 bugs.',
