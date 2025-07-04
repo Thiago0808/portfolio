@@ -10,13 +10,12 @@ function About() {
       <div className="about-content">
         <div className="about-text">
           <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue orci, ultricies ut nisi at, dapibus viverra lacus. Donec ut arcu id ante mollis posuere vitae eu mi. Curabitur sed diam a orci egestas rhoncus. Nunc porta felis diam, eget porta massa posuere at. Proin ac purus eleifend, volutpat metus vel, molestie urna."
+            Na minha trajetória como desenvolvedor web full-stack, destaco-me por integrar equipes em projetos vitoriosos, conquistando múltiplos prêmios em competições de caráter internacional e obtendo financiamento em razão dessas conquistas. Minha contribuição técnica foi essencial para o êxito dessas iniciativas, evidenciando minha capacidade de entrega em ambientes desafiadores e competitivos.
           </p>
         </div>
 
         <div className="about-image">
           <img src="/imgs/sua-imagem.png" alt="Foto de perfil" />
-          {/* substitua o src com o caminho real da imagem */}
         </div>
       </div>
     </div>
