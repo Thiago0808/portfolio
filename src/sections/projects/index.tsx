@@ -24,12 +24,12 @@ function Projects() {
       link: "https://thiagomartins.dev/timeline",
     },
     {
-      name: "Hello",
-      technologies: ["HTML"],
+      name: "CodeSnape",
+      technologies: ["HTML", "CSS", "PHP", "SQL", "Bootstrap"],
       description:
-        "Nsitevia localhost.",
-      image: "/src/assets/img/projects/faculmatch.png",
-      link: "/src/assets/img/faculmatch.png",
+        "Neste projeto, você é capaz de armazenar trechos de código, para ter rápido acesso. Possui um CRUD completo dos trechos, sendo possível selecionar suas linguagens, assim como criar e aplicar tags aos trechos.",
+      image: "/src/assets/img/projects/codesnape.png",
+      link: "https://thiagomartins.dev/codesnape",
     },
     {
       name: "Reptors Timequake",
