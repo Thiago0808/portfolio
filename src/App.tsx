@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/Header'
 import About from './sections/about'
 import Experience from './sections/experience'
+import Footer from './sections/footer'
 import Education from './sections/formation'
 import Projects from './sections/projects'
 import Skills from './sections/skills'
@@ -20,7 +21,8 @@ function App() {
       <Education />
       <hr />
       <Experience />
-      {/* Contatos */}
+      <hr />
+      <Footer />
     
     </div>
   )
