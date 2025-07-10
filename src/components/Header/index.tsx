@@ -1,10 +1,11 @@
 import React from 'react';
 import './style.css';
+import iconImg from '../../assets/img/icon.png';
 
 const Header: React.FC = () => {
   return (
     <header className="header">
-      <img src="/src/assets/img/icon.png" alt="Ícone do Portfólio" className="header-icon" />
+      <img src={iconImg} alt="Ícone do Portfólio" className="header-icon" />
       <nav className="header-nav">
         <a href="#sobre-mim">Sobre Mim</a>
         <a href="#habilidades">Habilidades</a>

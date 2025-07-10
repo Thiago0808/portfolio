@@ -1,6 +1,7 @@
 import './style.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SectionTitle from '../../components/SectionTitle';
+import aboutImg from '../../assets/img/about.jpg';
 
 function About() {
   return (
@@ -15,7 +16,7 @@ function About() {
         </div>
 
         <div className="about-image">
-          <img src="/src/assets/img/about.jpg" alt="Foto de perfil" />
+          <img src={aboutImg} alt="Foto de perfil" />
         </div>
       </div>
     </div>

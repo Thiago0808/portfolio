@@ -3,6 +3,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SectionTitle from '../../components/SectionTitle';
 import ExperienceCard from '../../components/ExperienceCard';
 
+import dgImg from '../../assets/img/experience/dg.png';
+import mineoroImg from '../../assets/img/experience/mineoro.png';
+import ifscImg from '../../assets/img/experience/ifsc.png';
+
 function Experience() {
 
   const cardsData = [
@@ -11,13 +15,13 @@ function Experience() {
       title: "Dev Full Stack Jr",
       duration: "11/2024-Atual",
       paragraphs: [
-        'Como Desenvolver Júnior na Del Grande, trabalho diariamente com Python, MySQL, React e TypeScript, em mais de 15 repositórios conectados ao GitLab e  mais de 80 de tabelas de banco de dados.',
+        'Como Desenvolver Júnior na Del Grande, trabalho diariamente com Python, MySQL, React e TypeScript, em mais de 15 repositórios conectados ao GitLab e mais de 80 de tabelas de banco de dados.',
         'Uma de minhas qualidades mais elogiadas na empresa é a atenção aos detalhes, analisando toda a quaisquer possibilidade de erro. Devido a essa atenção, consegui perceber e corrigir mais de 300 bugs.',
         'Forneci inúmeras sugestões focadas na experiência do cliente e na escalabilidade e desenvolvi em mais de 40 telas com a biblioteca Ant Design e componentização.',
         'Trabalho tanto no frontend quanto no backend, assim como em sua conexão com mais de 300 rotas, as criando, otimizando e adaptando. Também lido com mais de 10 APIs.',
         'Sou o principal desenvolvedor das seções de monitor e relatórios, devido às minhas capacidades matemáticas, de análise e de facilidade em lidar com mais de 5000 dados simultaneamente, em mais de 10 relatórios e mais de 50 tipos de dados.',
       ],
-      image: "/src/assets/img/experience/dg.png",
+      image: dgImg,
     },
     {
       place: 'Mineoro',
@@ -27,7 +31,7 @@ function Experience() {
         'Como Assistente de Almoxarifado na Mineoro Indústria Eletrônica, minha principal responsabilidade era atender as necessidades dos 70 funcionários da empresa, me comunicando eficientemente para lhes entregar os materiais que são pedidos.',
         'Também detinha a função de receber encomendas diariamente, dos caminhões que chegam na empresa, assim como dos correios, conferindo as entregas e oficializando os papeis necessários.',
       ],
-      image: "/src/assets/img/experience/mineoro.png",
+      image: mineoroImg,
     },
     {
       place: 'IFSC Garopaba',
@@ -39,7 +43,7 @@ function Experience() {
         'Desempenhei um papel essencial na comunicação efetiva com as turmas, garantindo a clareza nas informações relativas aos conteúdos e atividades programadas.',
         'Ministrei quase 60 aulas de reforço, proporcionando suporte aos alunos em diversos tópicos de matemática.',
       ],
-      image: "/src/assets/img/experience/ifsc.png",
+      image: ifscImg,
     },
   ]
 

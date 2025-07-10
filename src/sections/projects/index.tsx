@@ -4,15 +4,20 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import SectionTitle from '../../components/SectionTitle';
 
-function Projects() {
+import faculmatchImg from '../../assets/img/projects/faculmatch.png';
+import timelineImg from '../../assets/img/projects/timeline.png';
+import waystationImg from '../../assets/img/projects/waystation.png';
+import codesnapeImg from '../../assets/img/projects/codesnape.png';
+import reptorsImg from '../../assets/img/projects/reptors.png';
 
+function Projects() {
   const cardsData = [
     {
       name: "FaculMatch",
       technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "MySQL"],
       description:
         "Meu primeiro grande projeto, a FaculMatch começou como um projeto escolar, sendo um site na qual um estudante poderia através de filtros, encontrar a sua faculdade ideal. O projeto se expandiu para fora do IFSC, novas funcionalides e faculdades do país inteiro!",
-      image: "/src/assets/img/projects/faculmatch.png",
+      image: faculmatchImg,
       link: "https://faculmatch.com/",
     },
     {
@@ -20,7 +25,7 @@ function Projects() {
       technologies: ["React", "TypeScript"],
       description:
         "A Linha do Tempo é um projeto onde apresento todos os meus pequenos projetos em um único repositório, focando principalmente nos projetos do meu curso técnico, mas também em meus projetos de treinamento, e futuros projetos da minha graduação.",
-      image: "/src/assets/img/projects/timeline.png",
+      image: timelineImg,
       link: "https://thiagomartins.dev/timeline",
     },
     {
@@ -28,7 +33,7 @@ function Projects() {
       technologies: ["React Native", "TypeScript", "CSS", "Expo"],
       description:
         "Trabalhei no frontend, sendo o responsável pela integração com o backend, via endpoints. Trabalhando com expo, também realizei o controle de versões do aplicativo. O app ainda não está pronto, então o botão direciona a um website falando sobre.",
-      image: "/src/assets/img/projects/waystation.png",
+      image: waystationImg,
       link: "https://waystation.com.br/",
     },
     {
@@ -36,7 +41,7 @@ function Projects() {
       technologies: ["HTML", "CSS", "PHP", "SQL", "Bootstrap"],
       description:
         "Neste projeto, você é capaz de armazenar trechos de código, para ter rápido acesso. Possui sistema de contas, e um CRUD completo dos trechos, sendo possível selecionar suas linguagens, assim como criar e aplicar tags aos trechos.",
-      image: "/src/assets/img/projects/codesnape.png",
+      image: codesnapeImg,
       link: "https://thiagomartins.dev/codesnape",
     },
     {
@@ -44,14 +49,14 @@ function Projects() {
       technologies: ["HTML", "CSS", "JavaScript", "Vercel"],
       description:
         "Este projeto foi parte de uma Game Jam, com temas de terror, dinossauro e viagem no tempo. Feito em 2 semanas, se trata de um jogo de sobrevivência baseado em escolhas, no qual o jogador precisa chegar ao último dia para voltar para o presente.",
-      image: "/src/assets/img/projects/reptors.png",
+      image: reptorsImg,
       link: "https://reptors-timequake.vercel.app/",
     },
-  ]
+  ];
 
   return (
     <div className="projects" id="projetos">
-      <SectionTitle title={"PROJETOS"} positioning='mid-left'/>
+      <SectionTitle title={"PROJETOS"} positioning="mid-left" />
       <div className="carousel">
         <Carousel
           showArrows={true}

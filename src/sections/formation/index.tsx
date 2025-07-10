@@ -1,7 +1,8 @@
-import './style.css'
+import './style.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SectionTitle from '../../components/SectionTitle';
 import ExpansiveCard from '../../components/ExpansiveCard';
+import ifscImg from '../../assets/img/formation/ifsc.png';
 
 function Education() {
 
@@ -27,7 +28,7 @@ function Education() {
       ],
       description:
         "Minha experiência no IFSC Garopaba foi transformadora, sendo graças à Instituição que comecei minha carreira como programador. Lá tive toda minha base de dev, aprendendo frontend, backend, banco de dados, programação para dispositivos móveis, redes e sistemas, e informática como um todo.",
-      image: "/src/assets/img/formation/ifsc.png",
+      image: ifscImg,
     },
     {
       title: "Graduação em Análise e Desenvolvimento de Sistenas",
@@ -58,9 +59,8 @@ function Education() {
         'Tópicos em Análise e Desenvolvimento de Sistemas',
       ],
       description:
-        //"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue orci, ultricies ut nisi at, dapibus viverra lacus. Donec ut arcu id ante mollis posuere vitae eu mi. Curabitur sed diam a orci egestas rhoncus. Nunc porta felis diam, eget porta massa posuere at. Proin ac purus eleifend, volutpat metus vel, molestie urna.",
         "Após muito estudo, consegui ingressar na tão sonhada graduação. Ainda no primeiro ano, venho aprendendo muito na faculdade, compreendendo melhor bases da área de informática e adquirindo inúmeros novos conhecimentos do ramo. É sempre incrível poder aplicar no trabalho aquilo que aprendi no curso uma semana atrás.",
-      image: "/src/assets/img/formation/ifsc.png",
+      image: ifscImg,
     },
   ]
 
