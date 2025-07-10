@@ -24,10 +24,18 @@ function Projects() {
       link: "https://thiagomartins.dev/timeline",
     },
     {
+      name: "WayStation",
+      technologies: ["React Native", "TypeScript", "CSS", "Expo"],
+      description:
+        "Trabalhei no frontend, sendo o responsável pela integração com o backend, via endpoints. Trabalhando com expo, também realizei o controle de versões do aplicativo. O app ainda não está pronto, então o botão direciona a um website falando sobre.",
+      image: "/src/assets/img/projects/waystation.png",
+      link: "https://waystation.com.br/",
+    },
+    {
       name: "CodeSnape",
       technologies: ["HTML", "CSS", "PHP", "SQL", "Bootstrap"],
       description:
-        "Neste projeto, você é capaz de armazenar trechos de código, para ter rápido acesso. Possui um CRUD completo dos trechos, sendo possível selecionar suas linguagens, assim como criar e aplicar tags aos trechos.",
+        "Neste projeto, você é capaz de armazenar trechos de código, para ter rápido acesso. Possui sistema de contas, e um CRUD completo dos trechos, sendo possível selecionar suas linguagens, assim como criar e aplicar tags aos trechos.",
       image: "/src/assets/img/projects/codesnape.png",
       link: "https://thiagomartins.dev/codesnape",
     },

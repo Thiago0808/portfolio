@@ -44,6 +44,12 @@
   color: #20232a;
 }
 
+.reactnative {
+  background-color: #00d8ff;
+  color: #000000;
+}
+
+
 .bootstrap {
   background-color: #7952b3;
 }
@@ -51,4 +57,9 @@
 .typescript {
   background-color: #3178c6;
   color: white;
+}
+
+.expo {
+  background-color: #000020; /* Azul escuro quase preto da identidade do Expo */
+  color: #ffffff;
 }
