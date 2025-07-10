@@ -15,7 +15,7 @@ function About() {
         </div>
 
         <div className="about-image">
-          <img src="/imgs/sua-imagem.png" alt="Foto de perfil" />
+          <img src="/src/assets/img/about.jpg" alt="Foto de perfil" />
         </div>
       </div>
     </div>
