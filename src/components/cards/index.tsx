@@ -20,7 +20,7 @@ function Card({ name, technologies, description, image, link }: CardProps) {
         </div>
 
         <div className="card-info">
-          <h3>{name}</h3>
+          <h2>{name}</h2>
           <div>
             {technologies.map((tech, index) => (
               <Tag key={index} name={tech} />

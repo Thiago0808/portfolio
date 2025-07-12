@@ -19,7 +19,7 @@ function ExpansiveCard({ title, place, duration, location, subjects, description
       <div className="expansive-card">
         <img src={image} alt="Instituto Federal Logo" className="expansive-img" />
         <div className="expansive-info">
-          <h3>{title}</h3>
+          <h2>{title}</h2>
           <p><strong>Instituição: </strong>{place}</p>
 
           {expanded && (

@@ -18,7 +18,7 @@
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.icon-link:hover .footer-icon {
+.social-media-link:hover .footer-icon {
   transform: scale(1.1);
   color: #6c63ff;
 }

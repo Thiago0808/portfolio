@@ -15,7 +15,7 @@ function ExperienceCard({ title, place, duration, image, paragraphs }: Experienc
         <div className="top-row">
           <img src={image} alt={`${place} logo`} className="experience-img" />
           <div className="experience-header">
-            <h3>{title}</h3>
+            <h2>{title}</h2>
             <p><strong>{place}</strong></p>
             <p><strong>{duration}</strong></p>
           </div>
