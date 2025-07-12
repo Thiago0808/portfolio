@@ -15,7 +15,7 @@ function Card({ name, technologies, description, image, link }: CardProps) {
     <div className='card-container'>
       <div className="card-inside-container">
         <div className="card-image">
-          <img src={`${image}`} />
+          <img src={`${image}`} alt={`Print do projeto ${name}`} />
           <Button text="VER" href={link} />
         </div>
 
