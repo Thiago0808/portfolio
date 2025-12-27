@@ -1,0 +1,41 @@
+{
+  "header": {
+    "altPortfolioIcon": "Portfolio icon",
+    "about": "About me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "education": "Education",
+    "experience": "Experience",
+    "contacts": "Contacts",
+    "changeLanguage": "Change language"
+  },
+  "about": {
+    "title": "ABOUT ME",
+    "description": "In my journey as a full-stack web developer, I have stood out by contributing to successful teams on award-winning projects, earning multiple prizes in international competitions and securing funding as a result of these achievements. My technical contributions were essential to the success of these initiatives, demonstrating my ability to deliver results in challenging and competitive environments.",
+    "profilePhoto": "Profile Photo"
+  },
+  "skills": {
+    "title": "SKILLS",
+    "types": {
+      "language": "Language",
+      "framework": "Framework",
+      "library": "Library",
+      "database": "Database",
+      "server": "Server",
+      "ide": "IDE",
+      "os": "Operating System",
+      "devops": "DevOps"
+    },
+    "time": {
+      "lt_6_months": "Less than 6 months",
+      "6_months": "6 months",
+      "gt_6_months": "More than 6 months",
+      "1_year": "1 year",
+      "gt_1_year": "More than 1 year",
+      "gt_2_years": "More than 2 years"
+    }
+  },
+  "footer": {
+    "developed": "Developed by Thiago Martins"
+  }
+}

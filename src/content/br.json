@@ -1,0 +1,41 @@
+{
+  "header": {
+    "altPortfolioIcon": "Ícone do portfólio",
+    "about": "Sobre mim",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "education": "Formação",
+    "experience": "Experiência",
+    "contacts": "Contatos",
+    "changeLanguage": "Trocar idioma"
+  },
+  "about": {
+    "title": "SOBRE MIM",
+    "description": "Na minha trajetória como desenvolvedor web full-stack, destaco-me por integrar equipes em projetos vitoriosos, conquistando múltiplos prêmios em competições de caráter internacional e obtendo financiamento em razão dessas conquistas. Minha contribuição técnica foi essencial para o êxito dessas iniciativas, evidenciando minha capacidade de entrega em ambientes desafiadores e competitivos.",
+    "profilePhoto": "Foto de Perfil"
+  },
+  "skills": {
+    "title": "HABILIDADES",
+    "types": {
+      "language": "Linguagem",
+      "framework": "Framework",
+      "library": "Biblioteca",
+      "database": "Banco de Dados",
+      "server": "Servidor",
+      "ide": "IDE",
+      "os": "Sistema Operacional",
+      "devops": "DevOps"
+    },
+    "time": {
+      "lt_6_months": "Menos de 6 meses",
+      "6_months": "6 meses",
+      "gt_6_months": "Mais de 6 meses",
+      "1_year": "1 ano",
+      "gt_1_year": "Mais de 1 ano",
+      "gt_2_years": "Mais de 2 anos"
+    }
+  },
+  "footer": {
+    "developed": "Desenvolvido por Thiago Martins"
+  }
+}

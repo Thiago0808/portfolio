@@ -14,13 +14,13 @@ interface MySQLTableProps {
 const MySQLTable: React.FC<MySQLTableProps> = ({ data }) => {
   return (
     <div className="sql-output">
-      <pre className="sql-prompt">mysql&gt; SELECT * FROM habilidades;</pre>
+      <pre className="sql-prompt">mysql&gt; SELECT * FROM skills;</pre>
       <table className="sql-table">
         <thead>
           <tr>
-            <th>Nome</th>
-            <th>Tipo</th>
-            <th>Tempo</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Time</th>
           </tr>
         </thead>
         <tbody>
