@@ -35,6 +35,16 @@
       "gt_2_years": "More than 2 years"
     }
   },
+  "projects": {
+    "title": "PROJECTS",
+    "descriptions": {
+      "faculmatch": "My first major project, FaculMatch started as a school project. It is a website where students can find their ideal college through filters. The project expanded beyond IFSC, gaining new features and including colleges from all over the country!",
+      "timeline": "Timeline is a project where I showcase all my small projects in a single repository, mainly focusing on projects from my technical course, but also including training projects and future projects from my degree.",
+      "waystation": "I worked on the frontend and was responsible for integrating it with the backend through endpoints. Using Expo, I also handled the app version control. The app is not finished yet, so the button redirects to a website explaining the project.",
+      "codesnape": "In this project, you can store code snippets for quick access. It features an account system and a complete CRUD for snippets, allowing you to select programming languages as well as create and apply tags to them.",
+      "reptors": "This project was part of a Game Jam with the themes of horror, dinosaurs, and time travel. Developed in two weeks, it is a choice-based survival game in which the player must survive until the final day to return to the present."
+    }
+  },
   "footer": {
     "developed": "Developed by Thiago Martins"
   }
