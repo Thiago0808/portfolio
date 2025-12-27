@@ -45,6 +45,64 @@
       "reptors": "Este projeto foi parte de uma Game Jam, com temas de terror, dinossauro e viagem no tempo. Feito em 2 semanas, se trata de um jogo de sobrevivência baseado em escolhas, no qual o jogador precisa chegar ao último dia para voltar para o presente."
     }
   },
+  "education": {
+    "title": "FORMAÇÃO",
+    "duration": "Duração",
+    "institute": "Instituição",
+    "location": "Localização",
+    "subjects": "Matérias",
+    "items": {
+      "ifsc-tech": {
+        "title": "Curso Técnico de Informática Integrado ao Ensino Médio",
+        "place": "Instituto Federal de Santa Catarina",
+        "subjects": [
+          "Algoritmos e Lógica de Programação",
+          "Banco de Dados",
+          "Empreendedorismo",
+          "Inglês Aplicado",
+          "Introdução à Informática",
+          "Manutenção e Configuração de Computadores",
+          "Programação Web",
+          "Programação e Engenharia de Software",
+          "Programação para Dispositivos Móveis",
+          "Redes de Computadores",
+          "Responsabilidade Socioambiental e Sustentabilidade",
+          "Tópicos Avançados em Informática"
+        ],
+        "description": "Minha experiência no IFSC Garopaba foi transformadora, sendo graças à Instituição que comecei minha carreira como programador. Lá tive toda minha base de dev, aprendendo frontend, backend, banco de dados, programação para dispositivos móveis, redes e sistemas, e informática como um todo."
+      },
+      "ifsc-grad": {
+        "title": "Graduação em Análise e Desenvolvimento de Sistemas",
+        "place": "Instituto Federal de Santa Catarina",
+        "subjects": [
+          "Análise de Sistemas",
+          "Banco de Dados",
+          "Comunicação Técnica",
+          "Desenvolvimento para Dispositivos Móveis",
+          "Desenvolvimento de Sistemas Orientados a Objetos",
+          "Desenvolvimento Web",
+          "Interface Humano-Computador",
+          "Inglês Instrumental",
+          "Introdução à Programação",
+          "Matemática Aplicada",
+          "Organização e Arquitetura de Computadores",
+          "Práticas em Desenvolvimento de Sistemas",
+          "Programação Orientada a Objetos",
+          "Projeto de Sistemas",
+          "Redes de Computadores",
+          "Segurança da Informação",
+          "Sistemas Operacionais",
+          "Teste de Software",
+          "Tópicos em Análise e Desenvolvimento de Sistemas"
+        ],
+        "description": "Após muito estudo, consegui ingressar na tão sonhada graduação. Ainda no primeiro ano, venho aprendendo muito na faculdade, compreendendo melhor bases da área de informática e adquirindo inúmeros novos conhecimentos do ramo. É sempre incrível poder aplicar no trabalho aquilo que aprendi no curso uma semana atrás."
+      }
+    },
+    "button":{
+      "more": "VER MAIS",
+      "less": "VER MENOS"
+    }
+  },
   "footer": {
     "developed": "Desenvolvido por Thiago Martins"
   }

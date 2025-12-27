@@ -1,4 +1,3 @@
-// src/data/projectsData.ts
 import faculmatchImg from "../assets/img/projects/faculmatch.png";
 import timelineImg from "../assets/img/projects/timeline.png";
 import waystationImg from "../assets/img/projects/waystation.png";

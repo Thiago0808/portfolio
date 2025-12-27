@@ -45,6 +45,64 @@
       "reptors": "This project was part of a Game Jam with the themes of horror, dinosaurs, and time travel. Developed in two weeks, it is a choice-based survival game in which the player must survive until the final day to return to the present."
     }
   },
+  "education": {
+    "title": "EDUCATION",
+    "duration": "Duration",
+    "institute": "Institute",
+    "location": "Location",
+    "subjects": "Subjects",
+    "items": {
+      "ifsc-tech": {
+        "title": "Technical Course in Information Technology Integrated with High School",
+        "place": "Instituto Federal de Santa Catarina",
+        "subjects": [
+          "Algorithms and Programming Logic",
+          "Databases",
+          "Entrepreneurship",
+          "Applied English",
+          "Introduction to Computing",
+          "Computer Maintenance and Configuration",
+          "Web Programming",
+          "Software Programming and Engineering",
+          "Mobile Application Development",
+          "Computer Networks",
+          "Socio-environmental Responsibility and Sustainability",
+          "Advanced Topics in Computing"
+        ],
+        "description": "My experience at IFSC Garopaba was truly transformative. It was through the institution that I began my career as a programmer. There, I built my entire development foundation, learning frontend, backend, databases, mobile application development, networks and systems, and computing as a whole."
+      },
+      "ifsc-grad": {
+        "title": "Bachelor’s Degree in Systems Analysis and Development",
+        "place": "Instituto Federal de Santa Catarina",
+        "subjects": [
+          "Systems Analysis",
+          "Databases",
+          "Technical Communication",
+          "Mobile Development",
+          "Object-Oriented Systems Development",
+          "Web Development",
+          "Human-Computer Interaction",
+          "Instrumental English",
+          "Introduction to Programming",
+          "Applied Mathematics",
+          "Computer Organization and Architecture",
+          "Systems Development Practices",
+          "Object-Oriented Programming",
+          "Systems Project",
+          "Computer Networks",
+          "Information Security",
+          "Operating Systems",
+          "Software Testing",
+          "Topics in Systems Analysis and Development"
+        ],
+        "description": "After a lot of dedication and study, I was able to enroll in my long-awaited undergraduate degree. Even in my first year, I have been learning a great deal at college, gaining a deeper understanding of the fundamentals of the IT field and acquiring extensive new knowledge in the area. It is always rewarding to apply at work what I learned in the course just a week earlier."
+      }
+    },
+    "button":{
+      "more": "SEE MORE",
+      "less": "SEE LESS"
+    }
+  },
   "footer": {
     "developed": "Developed by Thiago Martins"
   }

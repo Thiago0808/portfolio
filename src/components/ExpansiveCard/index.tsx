@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./style.css";
+import type { Language } from "../../App";
+import { contents } from "../../content/content";
 
 interface CourseCardProps {
   title: string;
@@ -9,10 +11,12 @@ interface CourseCardProps {
   subjects: string[];
   description: string;
   image: string;
+  language: Language
 }
 
-function ExpansiveCard({ title, place, duration, location, subjects, description, image }: CourseCardProps) {
+function ExpansiveCard({ title, place, duration, location, subjects, description, image, language }: CourseCardProps) {
   const [expanded, setExpanded] = useState(false);
+  const content = contents[language].education;
 
   return (
     <div className="expansive-card-container">
@@ -20,13 +24,13 @@ function ExpansiveCard({ title, place, duration, location, subjects, description
         <img src={image} alt="Instituto Federal Logo" className="expansive-img" />
         <div className="expansive-info">
           <h2>{title}</h2>
-          <p><strong>Instituição: </strong>{place}</p>
+          <p><strong>{content.institute}: </strong>{place}</p>
 
           {expanded && (
             <>
-              <p><strong>Duração: </strong>{duration}</p>
-              <p><strong>Localização: </strong>{location}</p>
-              <p><strong>Matérias: </strong> 
+              <p><strong>{content.duration}: </strong>{duration}</p>
+              <p><strong>{content.location}: </strong>{location}</p>
+              <p><strong>{content.subjects}: </strong> 
                 <div>
                   {subjects.join(' | ')}
                 </div>
@@ -36,7 +40,7 @@ function ExpansiveCard({ title, place, duration, location, subjects, description
           )}
 
           <button className="toggle-button" onClick={() => setExpanded(!expanded)}>
-            {expanded ? "VER MENOS" : "VER MAIS"}
+            {expanded ? content.button.less : content.button.more}
           </button>
         </div>
       </div>

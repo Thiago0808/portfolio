@@ -1,4 +1,3 @@
-// src/data/techData.ts
 export type TechTimeKey =
   | "lt_6_months"
   | "gt_6_months"
