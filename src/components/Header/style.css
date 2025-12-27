@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 1rem 3rem; /* aumentei o padding lateral */
+  gap: 1rem;
+  padding: 1rem 3rem;
   background-color: #0e1318;
   color: white;
   border-bottom: 2px solid #5a37a6;
@@ -19,22 +20,47 @@
 
 .header-nav {
   display: flex;
-  gap: 2rem; /* aumentei o espaço entre os links */
+  gap: 2rem;
   flex-wrap: wrap;
-  padding: 0.5rem 1rem; /* adicionei um leve padding */
+  padding: 0.5rem 1rem;
 }
 
 .header-nav a {
   color: white;
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.3s;
+  transition: color 0.3s ease;
 }
 
 .header-nav a:hover {
   color: #a78bfa;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.language-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.language-toggle img {
+  width: 36px;
+  height: 24px;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.language-toggle:hover img {
+  transform: scale(1.1);
+}
+
+/* 📱 Mobile */
 @media (max-width: 600px) {
   .header {
     flex-direction: column;
@@ -52,5 +78,9 @@
     justify-content: center;
     gap: 1rem;
     padding: 0.5rem 0;
+  }
+
+  .header-actions {
+    margin-top: 0.5rem;
   }
 }

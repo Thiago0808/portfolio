@@ -3,8 +3,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SectionTitle from '../../components/SectionTitle';
 import ExpansiveCard from '../../components/ExpansiveCard';
 import ifscImg from '../../assets/img/formation/ifsc.png';
+import type { SectionsProps } from '../../App';
 
-function Education() {
+function Education({ language }: SectionsProps) {
 
   const cardsData = [
     {

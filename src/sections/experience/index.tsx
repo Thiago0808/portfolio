@@ -6,9 +6,9 @@ import ExperienceCard from '../../components/ExperienceCard';
 import dgImg from '../../assets/img/experience/dg.png';
 import mineoroImg from '../../assets/img/experience/mineoro.png';
 import ifscImg from '../../assets/img/experience/ifsc.png';
+import type { SectionsProps } from '../../App';
 
-function Experience() {
-
+function Experience({ language }: SectionsProps) {
   const cardsData = [
     {
       place: 'Del Grande',

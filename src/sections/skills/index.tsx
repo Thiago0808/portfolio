@@ -2,6 +2,7 @@ import './style.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SectionTitle from '../../components/SectionTitle';
 import MySQLTable from '../../components/SkillsTable';
+import type { SectionsProps } from '../../App';
 
 const techData = [
   // Linguagens & Tecnologias
@@ -42,7 +43,7 @@ const techData = [
   { name: "Docker", type: "DevOps", time: "Mais de 6 meses" },
 ];
 
-function Skills() {
+function Skills({ language }: SectionsProps) {
 
   return (
     <div className="skills" id="habilidades">

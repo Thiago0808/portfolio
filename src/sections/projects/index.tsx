@@ -9,8 +9,9 @@ import timelineImg from '../../assets/img/projects/timeline.png';
 import waystationImg from '../../assets/img/projects/waystation.png';
 import codesnapeImg from '../../assets/img/projects/codesnape.png';
 import reptorsImg from '../../assets/img/projects/reptors.png';
+import type { SectionsProps } from '../../App';
 
-function Projects() {
+function Projects({ language }: SectionsProps) {
   const cardsData = [
     {
       name: "FaculMatch",

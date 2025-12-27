@@ -2,8 +2,9 @@ import './style.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SectionTitle from '../../components/SectionTitle';
 import aboutImg from '../../assets/img/about.jpg';
+import type { SectionsProps } from '../../App';
 
-function About() {
+function About({ language }: SectionsProps) {
   return (
     <div className="about" id="sobre-mim">
       <SectionTitle title={"SOBRE MIM"} positioning='MID-LEFT' />

@@ -1,8 +1,9 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import './style.css';
+import type { SectionsProps } from '../../App';
 
-function Footer() {
+function Footer({ language }: SectionsProps) {
   return (
     <footer className="footer" id="contatos">
       <div className="footer-icons">
@@ -38,7 +39,7 @@ function Footer() {
       </div>
 
       <p className="footer-text">
-        {new Date().getFullYear()} - Desenvolvido por Thiago Martins
+        {new Date().getFullYear()} - {language === 'en' ? 'Developed by' : 'Desenvolvido por'} Thiago Martins
       </p>
     </footer>
   );
