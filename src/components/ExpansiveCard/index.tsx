@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./style.css";
 import type { Language } from "../../App";
-import { contents } from "../../content/content";
+import { contents } from "../../content/languages/content";
 
 interface CourseCardProps {
   title: string;

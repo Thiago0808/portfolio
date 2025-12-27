@@ -3,7 +3,7 @@ import SectionTitle from "../../components/SectionTitle";
 import MySQLTable from "../../components/SkillsTable";
 import type { SectionsProps } from "../../App";
 import { skillsContent } from "../../content/skillsContent";
-import { contents } from "../../content/content";
+import { contents } from "../../content/languages/content";
 
 function Skills({ language }: SectionsProps) {
   const content = contents[language].skills;

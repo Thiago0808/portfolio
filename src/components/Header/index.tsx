@@ -4,7 +4,7 @@ import iconImg from "../../assets/img/icon.png";
 import brFlag from "../../assets/img/flags/br-pt.png";
 import usUkFlag from "../../assets/img/flags/us-uk.jpg";
 import type { Language } from "../../App";
-import { contents } from "../../content/content";
+import { contents } from "../../content/languages/content";
 
 interface HeaderProps {
   language: Language;

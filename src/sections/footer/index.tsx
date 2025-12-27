@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import './style.css';
 import type { SectionsProps } from '../../App';
-import { contents } from '../../content/content';
+import { contents } from '../../content/languages/content';
 
 function Footer({ language }: SectionsProps) {
   const content = contents[language].footer;

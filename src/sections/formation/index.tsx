@@ -2,7 +2,7 @@ import "./style.css";
 import SectionTitle from "../../components/SectionTitle";
 import ExpansiveCard from "../../components/ExpansiveCard";
 import type { SectionsProps } from "../../App";
-import { contents } from "../../content/content";
+import { contents } from "../../content/languages/content";
 import { educationContent } from "../../content/educationContent";
 
 function Education({ language }: SectionsProps) {

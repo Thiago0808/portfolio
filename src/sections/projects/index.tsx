@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import SectionTitle from "../../components/SectionTitle";
 import type { SectionsProps } from "../../App";
-import { contents } from "../../content/content";
+import { contents } from "../../content/languages/content";
 import { projectsContent } from "../../content/projectsContent";
 
 function Projects({ language }: SectionsProps) {

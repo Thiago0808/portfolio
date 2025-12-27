@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SectionTitle from '../../components/SectionTitle';
 import aboutImg from '../../assets/img/about.jpg';
 import type { SectionsProps } from '../../App';
-import { contents } from '../../content/content';
+import { contents } from '../../content/languages/content';
 
 function About({ language }: SectionsProps) {
   const content = contents[language].about;
