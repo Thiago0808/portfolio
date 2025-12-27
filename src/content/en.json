@@ -103,6 +103,40 @@
       "less": "SEE LESS"
     }
   },
+  "experience": {
+    "title": "EXPERIENCE",
+    "items": {
+      "del-grande": {
+        "place": "Del Grande",
+        "title": "Junior Full Stack Developer",
+        "paragraphs": [
+          "As a Junior Developer at Del Grande, I work daily with Python, MySQL, React, and TypeScript across more than 15 repositories connected to GitLab and over 80 database tables.",
+          "One of my most praised qualities at the company is attention to detail, carefully analyzing every possible source of error. Due to this attention, I have identified and fixed over 300 bugs.",
+          "I have provided numerous suggestions focused on customer experience and scalability, and I have developed more than 40 screens using the Ant Design library and component-based architecture.",
+          "I work on both frontend and backend, as well as their integration across more than 300 routes, creating, optimizing, and adapting them. I also work with over 10 APIs.",
+          "I am the main developer responsible for the monitoring and reporting sections, due to my strong mathematical and analytical skills and my ability to handle over 5,000 data points simultaneously, across more than 10 reports and over 50 data types."
+        ]
+      },
+      "mineoro": {
+        "place": "Mineoro",
+        "title": "Warehouse Assistant",
+        "paragraphs": [
+          "As a Warehouse Assistant at Mineoro Indústria Eletrônica, my main responsibility was to meet the needs of the company’s 70 employees, communicating efficiently to deliver the requested materials.",
+          "I was also responsible for receiving daily shipments from arriving trucks and postal services, checking deliveries and handling the required documentation."
+        ]
+      },
+      "ifsc-monitor": {
+        "place": "IFSC Garopaba",
+        "title": "Mathematics Teaching Assistant",
+        "paragraphs": [
+          "As a Mathematics Teaching Assistant at IFSC, I took on numerous responsibilities to support the learning of more than 25 students, strengthening the educational environment and collaborating with the course instructor to ensure the effectiveness of teaching strategies.",
+          "I collaborated in the creation of study booklets, developing educational resources that supported the understanding of mathematical concepts.",
+          "I played a key role in maintaining effective communication with the classes, ensuring clarity in information related to course content and scheduled activities.",
+          "I delivered nearly 60 tutoring sessions, providing academic support to students across various mathematics topics."
+        ]
+      }
+    }
+  },
   "footer": {
     "developed": "Developed by Thiago Martins"
   }
