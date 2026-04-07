@@ -18,7 +18,7 @@ export const projectsContent: ProjectItem[] = [
     name: "FaculMatch",
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "MySQL"],
     image: faculmatchImg,
-    link: "https://faculmatch.com/",
+    link: "https://thiagomartins.dev/faculmatch",
   },
   {
     id: "timeline",
