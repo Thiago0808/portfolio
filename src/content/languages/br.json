@@ -108,31 +108,68 @@
     "items": {
       "del-grande": {
         "place": "Del Grande",
-        "title": "Dev Full Stack Jr",
+        "title": "Dev Full Stack Jr IV",
         "paragraphs": [
-          "Como Desenvolver Júnior na Del Grande, trabalho diariamente com Python, MySQL, React e TypeScript, em mais de 15 repositórios conectados ao GitLab e mais de 80 de tabelas de banco de dados.",
-          "Uma de minhas qualidades mais elogiadas na empresa é a atenção aos detalhes, analisando toda a quaisquer possibilidade de erro. Devido a essa atenção, consegui perceber e corrigir mais de 300 bugs.",
-          "Forneci inúmeras sugestões focadas na experiência do cliente e na escalabilidade e desenvolvi em mais de 40 telas com a biblioteca Ant Design e componentização.",
-          "Trabalho tanto no frontend quanto no backend, assim como em sua conexão com mais de 300 rotas, as criando, otimizando e adaptando. Também lido com mais de 10 APIs.",
-          "Sou o principal desenvolvedor das seções de monitor e relatórios, devido às minhas capacidades matemáticas, de análise e de facilidade em lidar com mais de 5000 dados simultaneamente, em mais de 10 relatórios e mais de 50 tipos de dados."
+          "Desenvolver e Manter a Stack: Trabalhar diariamente no Full-Stack, agora em sistema legado, de 8 serviços distintos, utilizando HTML/CSS, PHP, JavaScript, React e MySQL, focado em correção de bugs e atendimento a mais de 50 pedidos de evolução e customização de clientes.",
+          "Otimizar Rotas Críticas: Aumentar em 100% a velocidade de resposta de rotas do sistema que sofriam com problemas de timeout, por meio de análise de código e refatoração de consultas SQL.",
+          "Garantir Qualidade e Estabilidade: Corrigir erros de exportação e agendamento de múltiplos formatos (PDF/CSV/XLS) em mais de 50 relatórios e realizar mais de 200 testes de Controle de Qualidade para validação do sistema em 15 versões diferentes.",
+          "Aprimorar o Back-end: Melhorar o sistema de API da empresa, implementando padrões de Orientação a Objetos (POO) para aumentar a coesão, modularidade e manutenibilidade do código legado.",
+          "Automatizar e Integrar Sistemas: Programar mais de 10 scripts de automação em Python ou Bash (com log rotacionado) para atender demandas específicas e realizar mais de 5 integrações de sistemas entre a empresa e plataformas próprias dos clientes (via API).",
+          "Desenvolver Soluções de Dados: Criar mais de 3 relatórios novos do zero, abrangendo desde a coleta de dados e definição de filtros/cálculos até a configuração de exportação e agendamento, garantindo a aprovação do gerente e clientes.",
+          "Gerenciar o Banco de Dados: Modificar e ajustar mais de 5 triggers diretamente no banco de dados (MySQL), solucionando problemas recorrentes que impactavam a geração de relatórios e a integridade de dados.",
+          "Resolver Erros Críticos: Analisar e diagnosticar mais de 100 logs de clientes, identificando a causa raiz de falhas e implementando a solução em 100% dos casos, muitas vezes em coordenação direta com a equipe de Suporte.",
+          "Contribuir para o Versionamento: Gerenciar o versionamento do código, realizando mais de 100 commits no repositório SVN Tortoise em 8 aplicativos distintos da empresa.",
+          "Desenvolver funcionalidades full-stack diariamente, utilizando React, TypeScript, AntDesign (Front-end), Python, Flask e MySQL (Back-end), desde a correção de bugs até a implementação de novas demandas de editais, seguindo o fluxo de Code Review e aprovação no GitLab pela gestão.",
+          "Solucionar mais de 10 problemas técnicos críticos (Nível L2/L3) diretamente nos endpoints do time comercial, minimizando o impacto nas operações de venda e garantindo a continuidade do negócio.",
+          "Contribuir com mais de 400 commits em um total de 18 repositórios de código, garantindo a integração contínua de novas funcionalidades e correções de bugs por meio de boas práticas de versionamento no GitLab.",
+          "Realizar a análise de qualidade em 14 relatórios críticos, inspecionando mais de 40 tipos de dados, o que resultou na identificação e correção de mais de 50 inconsistências, assegurando a integridade e confiabilidade dos resultados de negócio.",
+          "Identificar e documentar mais de 20 gargalos de escalabilidade no sistema, tendo 75% das propostas de otimização acatadas e implementadas, melhorando a performance geral e a capacidade de processamento da aplicação.",
+          "Coordenar o processo de QA (Quality Assurance) e corrigir 70% dos mais de 100 bugs identificados nas áreas de monitoramento e dashboard, garantindo a estabilidade da interface do usuário e a aprovação sem ressalvas da gestão.",
+          "Garantir a estabilidade e usabilidade de mais de 40 formulários da aplicação, realizando correções de erros e refatorações que aprimoraram a experiência do usuário (UX).",
+          "Desenvolver e manter correções e implementações em 5 conectores de mensagens distintos (E-mail, WhatsApp, Telegram, Messenger e Web Chat), assegurando a funcionalidade da plataforma omnichannel."
         ]
       },
       "mineoro": {
         "place": "Mineoro",
         "title": "Assistente de Almoxarifado",
         "paragraphs": [
-          "Como Assistente de Almoxarifado na Mineoro Indústria Eletrônica, minha principal responsabilidade era atender as necessidades dos 70 funcionários da empresa, me comunicando eficientemente para lhes entregar os materiais que são pedidos.",
-          "Também detinha a função de receber encomendas diariamente, dos caminhões que chegam na empresa, assim como dos correios, conferindo as entregas e oficializando os papeis necessários."
+          "Otimizar e remodelar o layout do almoxarifado, resultando em uma melhoria de 100% no fluxo e eficiência de movimentação de produtos e inventário.",
+          "Implementar um novo sistema de organização para um inventário de mais de 100.000 peças eletrônicas, recebendo reconhecimento da liderança pela melhoria na rastreabilidade e precisão.",
+          "Executar o ciclo completo de gerenciamento de inventário (recebimento, organização e expedição), movimentando mais de 100 materiais diariamente e prestando suporte a mais de 50 funcionários.",
+          "Contribuir para a produção ao montar mais de 500 placas de circuito impresso e corrigir falhas em mais de 30 circuitos por meio de soldagem e troca de componentes, garantindo a funcionalidade.",
+          "Gerenciar o descarte e reciclagem de mais de 200 peças, resultando no aumento de 40% do espaço útil no ambiente de estoque."
         ]
       },
       "ifsc-monitor": {
         "place": "IFSC Garopaba",
         "title": "Monitor de Matemática",
         "paragraphs": [
-          "Como monitor de matemática no IFSC, assumi dezenas de responsabilidades para apoiar o aprendizado dos mais de 25 alunos que me procuraram, fortalecendo o ambiente educacional, colaborando com a professora da disciplina para garantir a eficácia das estratégias de ensino.",
-          "Colaborei na criação de apostilas, desenvolvendo recursos didáticos que auxiliaram na compreensão dos conteúdos de matemática.",
-          "Desempenhei um papel essencial na comunicação efetiva com as turmas, garantindo a clareza nas informações relativas aos conteúdos e atividades programadas.",
-          "Ministrei quase 60 aulas de reforço, proporcionando suporte aos alunos em diversos tópicos de matemática."
+          "Ministrar mais de 50 aulas de reforço individual e em grupo, proporcionando suporte direcionado aos alunos em diversos tópicos de matemática.",
+          "Desenvolver mais de 10 apostilas e materiais didáticos customizados, que auxiliaram mais de 200 alunos na compreensão de temas complexos e preparação para avaliações.",
+          "Colaborar diretamente com a professora de matemática, fornecendo auxílio com materiais e resoluções, sendo reconhecido como o monitor de melhor desempenho e proatividade.",
+          "Comunicar e coordenar informações essenciais com 6 turmas diferentes, garantindo clareza na distribuição de atividades e cronogramas."
+        ]
+      },
+      "tbdc": {
+        "place": "The Big Data Company",
+        "title": "Desenvolvedor Full Stack Freelancer",
+        "paragraphs": [
+          "Projetou e gerenciou a arquitetura do banco de dados, estruturando mais de 15 tabelas e 100+ atributos para garantir integridade e escalabilidade dos dados.",
+          "Desenvolveu e manteve mais de 60 rotas de API em 50% do tempo estimado, gerando uma economia direta de mais de R$ 500,00 para a empresa.",
+          "Arquitetou e implementou completamente a base lógica central da API, estabelecendo a espinha dorsal técnica do sistema.",
+          "Implementou mais de 20 objetos centrais do sistema, aplicando boas práticas de Programação Orientada a Objetos (POO).",
+          "Implementou mais de 10 subsistemas complexos, como módulos de comentários e sistemas de amizade, expandindo a funcionalidade da plataforma.",
+          "Estruturou um sistema de logs e monitoramento com 4 categorias distintas, triplicando a velocidade de identificação e resolução de erros na API.",
+          "Desenvolveu mais de 5 scripts de automação para gerenciamento do sistema, otimizando processos de criação e atualização do banco de dados (reduzindo o tempo de execução de 1h15 para apenas 5 minutos).",
+          "Criou um sistema de notificações por e-mail com 5 tipos distintos de alertas e tempo de processamento inferior a 5 segundos.",
+          "Realizou mais de 50 Code Reviews e Pull Requests, focando na melhoria da qualidade do código e disseminação de boas práticas.",
+          "Integrau mais de 60 rotas ao Frontend, garantindo comunicação fluida e síncrona com a API.",
+          "Criou fluxogramas técnicos detalhados, mapeando todo o fluxo de navegação do site e a lógica do sistema.",
+          "Gerenciou o ciclo de vida do desenvolvimento de software, entregando mais de 6 versões estáveis tanto para Frontend quanto para Backend.",
+          "Implementou um sistema robusto de autenticação, incluindo login, logout, gerenciamento de sessões ativas/protegidas e recuperação de senha para múltiplos perfis de acesso.",
+          "Adaptou a lógica do sistema para compatibilidade com UTC, garantindo padronização global de tempo na aplicação.",
+          "Entregou mais de 20 melhorias de funcionalidades e mais de 50 correções de bugs em colaboração direta com equipes de Full Stack e Frontend.",
+          "Produziu mais de 5 documentações técnicas e rotas no Postman, facilitando a manutenção futura e o onboarding de novos desenvolvedores."
         ]
       }
     }

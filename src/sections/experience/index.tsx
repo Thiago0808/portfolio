@@ -20,7 +20,7 @@ function Experience({ language }: SectionsProps) {
       <div className="experiences-div">
         {cardsData.map((card) => (
           <div className="experience-div" key={card.id}>
-            <ExperienceCard {...card} />
+            <ExperienceCard {...card} language={language}/>
           </div>
         ))}
       </div>

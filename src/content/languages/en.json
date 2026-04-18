@@ -108,31 +108,68 @@
     "items": {
       "del-grande": {
         "place": "Del Grande",
-        "title": "Junior Full Stack Developer",
+        "title": "Software Engineer",
         "paragraphs": [
-          "As a Junior Developer at Del Grande, I work daily with Python, MySQL, React, and TypeScript across more than 15 repositories connected to GitLab and over 80 database tables.",
-          "One of my most praised qualities at the company is attention to detail, carefully analyzing every possible source of error. Due to this attention, I have identified and fixed over 300 bugs.",
-          "I have provided numerous suggestions focused on customer experience and scalability, and I have developed more than 40 screens using the Ant Design library and component-based architecture.",
-          "I work on both frontend and backend, as well as their integration across more than 300 routes, creating, optimizing, and adapting them. I also work with over 10 APIs.",
-          "I am the main developer responsible for the monitoring and reporting sections, due to my strong mathematical and analytical skills and my ability to handle over 5,000 data points simultaneously, across more than 10 reports and over 50 data types."
+          "Develop and maintain the stack: Work daily on the full-stack of a legacy system composed of eight distinct services, using HTML/CSS, PHP, JavaScript, React, and MySQL, with a focus on bug fixes and handling over 50 customer requests for enhancements and customizations.",
+          "Optimize critical routes: Achieve a 100% increase in response speed for system routes affected by timeout issues through code analysis and SQL query refactoring.",
+          "Ensure quality and stability: Fix export and scheduling issues for multiple formats (PDF/CSV/XLS) across more than 50 reports and perform over 200 Quality Control tests to validate the system across 15 different versions.",
+          "Enhance the back end: Improve the company’s API system by implementing Object-Oriented Programming (OOP) patterns to increase cohesion, modularity, and maintainability of the legacy codebase.",
+          "Automate and integrate systems: Develop over 10 automation scripts in Python or Bash (with log rotation) to meet specific demands and deliver more than 5 system integrations between the company and customers’ proprietary platforms via APIs.",
+          "Develop data-driven solutions: Build more than three new reports from scratch, covering data collection, filter and calculation definitions, as well as export and scheduling setup, ensuring manager and customer approval.",
+          "Manage the database: Modify and fine-tune over five database triggers directly in MySQL, resolving recurring issues that impacted report generation and data integrity.",
+          "Resolve critical issues: Analyze and diagnose over 100 customer logs, identify root causes, and implement fixes in 100% of cases, often in direct coordination with the Support team.",
+          "Contribute to version control: Manage code versioning by delivering over 100 commits to SVN (TortoiseSVN) across eight different company applications.",
+          "Develop full-stack features on a daily basis, using React, TypeScript, and Ant Design (Front-end), as well as Python, Flask, and MySQL (Back-end), ranging from bug fixes to the implementation of new public bid requirements, following the Code Review workflow and management approval in GitLab.",
+          "Resolve over 10 critical technical issues (L2/L3) directly in the commercial team’s endpoints, minimizing impact on sales operations and ensuring business continuity.",
+          "Contribute more than 400 commits across 18 code repositories, ensuring continuous integration of new features and bug fixes through GitLab version control best practices.",
+          "Perform quality analysis on 14 critical reports, inspecting over 40 data types, which led to the identification and correction of more than 50 inconsistencies, ensuring data integrity and business reliability.",
+          "Identify and document over 20 system scalability bottlenecks, with 75% of optimization proposals accepted and implemented, improving overall performance and application processing capacity.",
+          "Coordinate the QA (Quality Assurance) process and fix 70% of more than 100 identified bugs in monitoring and dashboard areas, ensuring UI stability and unconditional management approval.",
+          "Ensure the stability and usability of over 40 application forms, performing bug fixes and refactoring that enhanced the user experience (UX).",
+          "Develop and maintain fixes and implementations across five distinct messaging connectors (Email, WhatsApp, Telegram, Messenger, and Web Chat), ensuring the functionality of the omnichannel platform."
         ]
       },
       "mineoro": {
         "place": "Mineoro",
         "title": "Warehouse Assistant",
         "paragraphs": [
-          "As a Warehouse Assistant at Mineoro Indústria Eletrônica, my main responsibility was to meet the needs of the company’s 70 employees, communicating efficiently to deliver the requested materials.",
-          "I was also responsible for receiving daily shipments from arriving trucks and postal services, checking deliveries and handling the required documentation."
+          "Optimize and redesign the warehouse layout, resulting in a 100% improvement in product and inventory movement flow and efficiency.",
+          "Implement a new organizational system for an inventory of over 100,000 electronic components, receiving recognition from leadership for improved traceability and accuracy.",
+          "Execute the full inventory management cycle (receiving, organization, and shipping), handling over 100 materials daily and providing support to more than 50 employees.",
+          "Contribute to production by assembling over 500 printed circuit boards (PCBs) and fixing more than 30 circuits through soldering and component replacement, ensuring full functionality.",
+          "Manage the disposal and recycling of over 200 components, resulting in a 40% increase in usable storage space."
         ]
       },
       "ifsc-monitor": {
         "place": "IFSC Garopaba",
         "title": "Mathematics Teaching Assistant",
         "paragraphs": [
-          "As a Mathematics Teaching Assistant at IFSC, I took on numerous responsibilities to support the learning of more than 25 students, strengthening the educational environment and collaborating with the course instructor to ensure the effectiveness of teaching strategies.",
-          "I collaborated in the creation of study booklets, developing educational resources that supported the understanding of mathematical concepts.",
-          "I played a key role in maintaining effective communication with the classes, ensuring clarity in information related to course content and scheduled activities.",
-          "I delivered nearly 60 tutoring sessions, providing academic support to students across various mathematics topics."
+          "Teach more than 50 individual and group tutoring classes, providing targeted support to students on a variety of math topics.",
+          "Develop more than 10 handouts and customized teaching materials, which helped more than 200 students understand complex topics and prepare for assessments.",
+          "Collaborate directly with the mathematics teacher, providing assistance with materials and resolutions, being recognized as the monitor with the best performance and proactivity.",
+          "Communicate and coordinate essential information with 6 different groups, ensuring clarity in the distribution of activities and schedules."
+        ]
+      },
+      "tbdc": {
+        "place": "The Big Data Company",
+        "title": "Freelance Full Stack Developer",
+        "paragraphs": [
+          "Designed and managed the database architecture, structuring over 15 tables and 100+ attributes to ensure data integrity and scalability.",
+          "Developed and maintained 60+ API routes in 50% of the estimated time, generating a direct cost saving of over R$ 500.00 for the company.",
+          "Architected and fully implemented the core logical foundation of the API, establishing the system’s technical backbone.",
+          "Implemented 20+ core system objects, applying Object-Oriented Programming (OOP) best practices.",
+          "Implemented 10+ complex subsystems, such as comment modules and friendship systems, expanding platform functionality.",
+          "Structured a logging and monitoring system with 4 distinct categories, tripling the speed of error identification and resolution within the API.",
+          "Developed 5+ automation scripts for system management, optimizing database creation and update processes (reducing execution time from 1h15 to just 5 minutes).",
+          "Created an email notification system with 5 distinct alert types and a processing time of under 5 seconds.",
+          "Performed 50+ Code Reviews and Pull Requests, focusing on code quality improvement and dissemination of best practices.",
+          "Integrated 60+ routes into the Frontend, ensuring seamless and synchronous communication with the API.",
+          "Created detailed technical flowcharts, mapping the entire website navigation flow and system logic.",
+          "Managed the software development lifecycle, delivering 6+ stable versions for both Frontend and Backend.",
+          "Implemented a robust authentication system, including login, logout, active/protected session management, and password recovery for multiple access profiles.",
+          "Adapted system logic for UTC compatibility, ensuring global time standardization across the application.",
+          "Delivered 20+ feature enhancements and 50+ bug fixes in direct collaboration with Full Stack and Frontend teams.",
+          "Authored 5+ technical documentation files plus postman routes, facilitating future maintenance and onboarding of new developers."
         ]
       }
     }
