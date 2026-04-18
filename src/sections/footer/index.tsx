@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import './style.css';
 import type { SectionsProps } from '../../App';
@@ -15,7 +15,7 @@ function Footer({ language }: SectionsProps) {
           target="_blank"
           rel="noopener noreferrer"
           className="social-media-link"
-          aria-label="Link para o GitHub"
+          aria-label={content.contacts.github}
         >
           <FaGithub className="footer-icon" />
         </a>
@@ -25,7 +25,7 @@ function Footer({ language }: SectionsProps) {
           target="_blank"
           rel="noopener noreferrer"
           className="social-media-link"
-          aria-label="Link para enviar email"
+          aria-label={content.contacts.email}
         >
           <MdEmail className="footer-icon" />
         </a>
@@ -35,9 +35,19 @@ function Footer({ language }: SectionsProps) {
           target="_blank"
           rel="noopener noreferrer"
           className="social-media-link"
-          aria-label="Link para o LinkedIn"
+          aria-label={content.contacts.linkedin}
         >
           <FaLinkedin className="footer-icon" />
+        </a>
+
+        <a
+          href="https://wa.me/5548998129221"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-media-link"
+          aria-label={content.contacts.whatsapp}
+        >
+          <FaWhatsapp className="footer-icon" />
         </a>
       </div>
 

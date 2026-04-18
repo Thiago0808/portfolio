@@ -175,6 +175,12 @@
     }
   },
   "footer": {
-    "developed": "Developed by Thiago Martins"
+    "developed": "Developed by Thiago Martins",
+    "contacts": {
+      "email": "Link to Send Email",
+      "linkedin": "Link to LinkedIn",
+      "github": "Link to Github",
+      "whatsapp": "Link to Whatsapp"
+    }
   }
 }

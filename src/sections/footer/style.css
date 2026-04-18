@@ -7,6 +7,7 @@
 .footer-icons {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 4rem;
   margin-bottom: 2rem;
 }
