@@ -1,11 +1,17 @@
-import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaWhatsapp, FaDownload } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import './style.css';
 import type { SectionsProps } from '../../App';
 import { contents } from '../../content/languages/content';
+import cvEn from "../../assets/pdf/CV_Thiago_Martins_EN.pdf";
+import cvPt from "../../assets/pdf/CV_Thiago_Martins_PTBR.pdf";
 
 function Footer({ language }: SectionsProps) {
   const content = contents[language].footer;
+
+  const cvFile = language === 'en' 
+    ? cvEn 
+    : cvPt;
   
   return (
     <footer className="footer" id="contatos">
@@ -48,6 +54,17 @@ function Footer({ language }: SectionsProps) {
           aria-label={content.contacts.whatsapp}
         >
           <FaWhatsapp className="footer-icon" />
+        </a>
+
+        <a
+          href={cvFile}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-media-link"
+          download
+          aria-label={content.downloadCV}
+        >
+          <FaDownload className="footer-icon" />
         </a>
       </div>
 
