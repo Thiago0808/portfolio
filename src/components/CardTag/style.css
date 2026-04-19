@@ -64,6 +64,31 @@
 }
 
 .expo {
-  background-color: #000020; /* Azul escuro quase preto da identidade do Expo */
+  background-color: #000020;
   color: #ffffff;
+}
+
+.python {
+  background-color: #3776ab;
+  color: #ffffff;
+}
+
+.flask {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.azure {
+  background-color: #0078d4;
+  color: #ffffff;
+}
+
+.shadcn {
+  background-color: #111827;
+  color: #ffffff;
+}
+
+.tailwind {
+  background-color: #38bdf8;
+  color: #0f172a;
 }

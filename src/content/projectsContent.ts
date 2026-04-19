@@ -3,9 +3,10 @@ import timelineImg from "../assets/img/projects/timeline.png";
 import waystationImg from "../assets/img/projects/waystation.png";
 import codesnapeImg from "../assets/img/projects/codesnape.png";
 import reptorsImg from "../assets/img/projects/reptors.png";
+import sanctuarioImg from "../assets/img/projects/sanctuario.png";
 
 export interface ProjectItem {
-  id: "faculmatch" | "timeline" | "waystation" | "codesnape" | "reptors";
+  id: "faculmatch" | "sanctuario" | "timeline" | "waystation" | "codesnape" | "reptors";
   name: string;
   technologies: string[];
   image: string;
@@ -19,6 +20,13 @@ export const projectsContent: ProjectItem[] = [
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "MySQL"],
     image: faculmatchImg,
     link: "https://thiagomartins.dev/faculmatch",
+  },
+  {
+    id: "sanctuario",
+    name: "Sanctuario",
+    technologies: ["Python", "Flask", "MySQL", "Azure", "React", "TypeScript", "CSS", "ShadCN", "Tailwind"],
+    image: sanctuarioImg,
+    link: "https://app.sanctuario.com.br/select",
   },
   {
     id: "timeline",

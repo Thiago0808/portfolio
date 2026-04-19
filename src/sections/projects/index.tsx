@@ -29,7 +29,7 @@ function Projects({ language }: SectionsProps) {
         >
           {cardsData.map((card) => (
             <div key={card.id}>
-              <Card {...card} />
+              <Card {...card} language={language} />
             </div>
           ))}
         </Carousel>
