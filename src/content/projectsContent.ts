@@ -40,7 +40,7 @@ export const projectsContent: ProjectItem[] = [
     name: "WayStation",
     technologies: ["React Native", "TypeScript", "CSS", "Expo"],
     image: waystationImg,
-    link: "https://waystation.com.br/",
+    link: "https://www.linkedin.com/posts/thiago-martins-oliveira_reactnative-fullstack-softwareengineering-ugcPost-7451674704198742016-1JSK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEVI4tYBViNQX4oUctSb-kXR2oqBJRUNmvg",
   },
   {
     id: "codesnape",
