@@ -8,7 +8,24 @@ import { contents } from "../../content/languages/content";
 function Skills({ language }: SectionsProps) {
   const content = contents[language].skills;
 
-  const translatedData = skillsContent.map((tech) => ({
+  const timeOrder: Record<string, number> = {
+    lt_6_months: 1,
+    "6_months": 2,
+    gt_6_months: 3,
+    "1_year": 4,
+    gt_1_year: 5,
+    "2_years": 6,
+    gt_2_years: 7,
+    "3_years": 8,
+    gt_3_years: 9,
+  };
+
+  const sortedSkills = [...skillsContent].sort(
+    (a, b) => timeOrder[b.time] - timeOrder[a.time]
+  );
+
+
+  const translatedData = sortedSkills.map((tech) => ({
     name: tech.name,
     type: content.types[tech.type],
     time: content.time[tech.time],

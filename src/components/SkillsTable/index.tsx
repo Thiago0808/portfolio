@@ -14,7 +14,7 @@ interface MySQLTableProps {
 const MySQLTable: React.FC<MySQLTableProps> = ({ data }) => {
   return (
     <div className="sql-output">
-      <pre className="sql-prompt">mysql&gt; SELECT * FROM skills;</pre>
+      <pre className="sql-prompt">mysql&gt; SELECT * FROM skills ORDER BY Time DESC;</pre>
       <table className="sql-table">
         <thead>
           <tr>

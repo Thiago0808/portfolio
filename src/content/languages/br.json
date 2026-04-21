@@ -24,7 +24,8 @@
       "server": "Servidor",
       "ide": "IDE",
       "os": "Sistema Operacional",
-      "devops": "DevOps"
+      "devops": "DevOps",
+      "automation": "Automação"
     },
     "time": {
       "lt_6_months": "Menos de 6 meses",
@@ -32,7 +33,10 @@
       "gt_6_months": "Mais de 6 meses",
       "1_year": "1 ano",
       "gt_1_year": "Mais de 1 ano",
-      "gt_2_years": "Mais de 2 anos"
+      "2_years": "2 anos",
+      "gt_2_years": "Mais de 2 anos",
+      "3_years": "3 anos",
+      "gt_3_years": "Mais de 3 anos"
     }
   },
   "projects": {
