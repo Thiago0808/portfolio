@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaWhatsapp, FaDownload } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaWhatsapp, FaFileAlt } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import './style.css';
 import type { SectionsProps } from '../../App';
@@ -64,7 +64,7 @@ function Footer({ language }: SectionsProps) {
           download
           aria-label={content.downloadCV}
         >
-          <FaDownload className="footer-icon" />
+          <FaFileAlt className="footer-icon" />
         </a>
       </div>
 
