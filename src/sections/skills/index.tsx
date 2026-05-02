@@ -20,15 +20,11 @@ function Skills({ language }: SectionsProps) {
     gt_3_years: 9,
   };
 
-  const sortedSkills = [...skillsContent].sort(
-    (a, b) => timeOrder[b.time] - timeOrder[a.time]
-  );
-
-
-  const translatedData = sortedSkills.map((tech) => ({
+  const translatedData = skillsContent.map((tech) => ({
     name: tech.name,
     type: content.types[tech.type],
     time: content.time[tech.time],
+    timeOrder: timeOrder[tech.time],
   }));
 
   return (

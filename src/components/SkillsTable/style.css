@@ -38,3 +38,12 @@
 .sql-table tr:nth-child(even) {
   background-color: #1a1a1a;
 }
+
+th {
+  cursor: pointer;
+  user-select: none;
+}
+
+th:hover {
+  color: #00ffcc;
+}
