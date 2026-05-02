@@ -1,0 +1,44 @@
+.card-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image img {
+  width: 100%;
+  border-radius: 0.5%;
+}
+
+/* TEXTO EM CIMA */
+.card-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  padding: 1rem;
+
+  /* leve fundo escuro com transparência */
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0)
+  );
+
+  color: white;
+}
+
+/* efeito de destaque no texto */
+.card-info p {
+  display: inline-block;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+  padding-bottom: 0.2rem;
+}
+
+/* parte de baixo (onde fica a bolinha) */
+.card-footer {
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: center;
+}
