@@ -180,6 +180,21 @@
       }
     }
   },
+  "books": {
+    "title": "BOOKS",
+    "items": {
+      "1": {
+        "title": "The Name of the Wind",
+        "genre": "Fantasy",
+        "description": "A história de Kvothe, um lendário mago contando sua própria trajetória."
+      },
+      "2": {
+        "title": "Outro Livro",
+        "genre": "Fantasy",
+        "description": "Descrição do outro livro aqui."
+      }
+    }
+  },
   "footer": {
     "developed": "Developed by Thiago Martins",
     "contacts": {

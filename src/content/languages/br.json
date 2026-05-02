@@ -180,6 +180,21 @@
       }
     }
   },
+  "books": {
+    "title": "LIVROS",
+    "items": {
+      "1": {
+        "title": "Nome do Vento",
+        "genre": "Fantasy",
+        "description": "A história de Kvothe, um lendário mago contando sua própria trajetória."
+      },
+      "2": {
+        "title": "Outro Livro",
+        "genre": "Fantasy",
+        "description": "Descrição do outro livro aqui."
+      }
+    }
+  },
   "footer": {
     "developed": "Desenvolvido por Thiago Martins",
     "contacts": {
