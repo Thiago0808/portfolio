@@ -180,6 +180,9 @@
       }
     }
   },
+  "presentation": {
+    "title": "PRESENTATION"
+  },
   "footer": {
     "developed": "Developed by Thiago Martins",
     "contacts": {
