@@ -180,6 +180,56 @@
       }
     }
   },
+  "books": {
+    "title": "LIVROS",
+    "items": {
+      "1": {
+        "title": "Aplicando UML e Padrões: Uma Introdução à Análise e Projeto Orientados a Objetos e ao Desenvolvimento Iterativo",
+        "genre": "Engenharia de Software",
+        "description": "Um guia prático para análise e projeto orientados a objetos utilizando UML, com foco no desenvolvimento iterativo e na aplicação de padrões de projeto no mundo real."
+      },
+      "2": {
+        "title": "Infraestrutura de Redes",
+        "genre": "Redes de Computadores",
+        "description": "Uma introdução aos fundamentos da infraestrutura de redes, abordando conceitos como topologia, hardware e protocolos de comunicação."
+      },
+      "3": {
+        "title": "Segurança da Informação",
+        "genre": "Cibersegurança",
+        "description": "Uma visão geral dos princípios de segurança da informação, incluindo proteção de dados, gestão de riscos e estratégias para proteger sistemas digitais."
+      },
+      "4": {
+        "title": "Aprenda Mineração de Dados: Teoria e Prática",
+        "genre": "Ciência de Dados",
+        "description": "Uma introdução abrangente aos conceitos de mineração de dados, combinando fundamentos teóricos com técnicas práticas para extração de insights."
+      },
+      "5": {
+        "title": "Projeto de Banco de Dados: Uma Abordagem Prática",
+        "genre": "Banco de Dados",
+        "description": "Um guia prático para o projeto de bancos de dados, abordando modelagem, normalização e implementação de sistemas eficientes."
+      },
+      "6": {
+        "title": "Entendendo Inteligência Artificial: Um Guia Ilustrado",
+        "genre": "Inteligência Artificial",
+        "description": "Uma introdução visual e acessível à inteligência artificial, explicando conceitos-chave, história e aplicações no mundo real."
+      },
+      "7": {
+        "title": "Estruturas de Dados",
+        "genre": "Ciência da Computação",
+        "description": "Uma introdução às principais estruturas de dados, com foco em implementação, eficiência e aplicação na resolução de problemas."
+      },
+      "8": {
+        "title": "Informática Fundamental: Introdução ao Processamento de Dados",
+        "genre": "Ciência da Computação",
+        "description": "Uma visão introdutória sobre os fundamentos da computação, incluindo conceitos básicos de processamento de dados e sistemas de informação."
+      },
+      "9": {
+        "title": "Level Up! Um Guia para o Design de Grandes Jogos",
+        "genre": "Design de Jogos",
+        "description": "Um guia prático sobre design de jogos, abordando mecânicas, experiência do jogador e técnicas para criar jogos envolventes."
+      }
+    }
+  },
   "footer": {
     "developed": "Desenvolvido por Thiago Martins",
     "contacts": {
