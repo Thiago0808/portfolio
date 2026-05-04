@@ -63,11 +63,6 @@ function Books({ language }: SectionsProps) {
                 <span className="book-stars">{stars(book.rating)}</span>
                 <span>📅 {book.year}</span>
                 <span>📄 {book.pages}p</span>
-                {book.link && (
-                  <a href={book.link} target="_blank" rel="noreferrer" className="book-link">
-                    Ver mais →
-                  </a>
-                )}
               </div>
             </div>
           </div>

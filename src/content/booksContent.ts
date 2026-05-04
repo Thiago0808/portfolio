@@ -5,7 +5,6 @@ export interface BookItem {
   pages: number;
   rating: number;
   image?: string;
-  link?: string;
 }
 
 import book1Img from "../assets/img/books/book1.jpg";
