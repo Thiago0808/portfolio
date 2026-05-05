@@ -1,8 +1,10 @@
-import sanctuarioImg from "../assets/img/projects/sanctuario.png";
 import delGrandeImg from "../assets/img/achievements/delgrande.jfif";
 import swImg from "../assets/img/achievements/sw23.jpg";
 import sepeiImg from "../assets/img/achievements/sepei.jpg";
+import medalsImg from "../assets/img/achievements/medals.jpg";
+import mentionsImg from "../assets/img/achievements/mentions.jpg";
 import ifscGaropabaImg from "../assets/img/achievements/ifscGaropaba.jpg";
+import chessImg from "../assets/img/achievements/chess.jpg";
 
 export interface AchievementItem {
   id: string;
@@ -24,11 +26,11 @@ export const achievementsContent: AchievementItem[] = [
   },
   {
     id: "4",
-    image: sanctuarioImg
+    image: medalsImg
   },
   {
     id: "5",
-    image: sanctuarioImg
+    image: mentionsImg
   },
   {
     id: "6",
@@ -36,6 +38,6 @@ export const achievementsContent: AchievementItem[] = [
   },
   {
     id: "7",
-    image: sanctuarioImg
+    image: chessImg
   },
 ];

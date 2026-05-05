@@ -1,17 +1,24 @@
-.card-image {
+.image-card-image {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #000;
+  overflow: hidden;
 }
 
-.card-image img {
+.image-card-image img {
   width: 100%;
+  height: 100%;
+  object-fit: contain;
   border-radius: 0.5%;
 }
 
-/* TEXTO EM CIMA */
-.card-info {
+.image-card-info {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -19,25 +26,22 @@
 
   padding: 1rem;
 
-  /* leve fundo escuro com transparência */
   background: linear-gradient(
     to top,
-    rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0)
+    rgba(0, 0, 0, 3),
+    rgba(0, 0, 0, 0.0)
   );
 
   color: white;
 }
 
-/* efeito de destaque no texto */
-.card-info p {
+.image-card-info p {
   display: inline-block;
   border-bottom: 2px solid rgba(255, 255, 255, 0.7);
   padding-bottom: 0.2rem;
 }
 
-/* parte de baixo (onde fica a bolinha) */
-.card-footer {
+.image-card-footer {
   margin-top: 0.8rem;
   display: flex;
   justify-content: center;
