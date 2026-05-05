@@ -24,6 +24,7 @@ function Projects({ language }: SectionsProps) {
           showArrows
           showThumbs={false}
           showStatus={false}
+          showIndicators={false}
           infiniteLoop
           emulateTouch
         >
