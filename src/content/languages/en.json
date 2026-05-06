@@ -6,6 +6,7 @@
     "projects": "Projects",
     "education": "Education",
     "experience": "Experience",
+    "achievements": "Achievements",
     "contacts": "Contacts",
     "changeLanguage": "Change language"
   },
@@ -178,6 +179,18 @@
           "Authored 5+ technical documentation files plus postman routes, facilitating future maintenance and onboarding of new developers."
         ]
       }
+    }
+  },
+  "achievements":{
+    "title": "ACHIEVEMENTS",
+    "descriptions": {
+      "1": "I have been with the company for over a year, where I experienced my greatest professional growth. I worked across almost the entire development cycle, gaining experience in frontend, backend, databases and infrastructure, as well as support and customer service.",
+      "2": "In 2023, I participated in Startup Weekend Garopaba, a 54-hour entrepreneurship marathon focused on creating and validating business ideas. My team developed a complete project and presented it to investors, earning 3rd place.",
+      "3": "FaculMatch was my most significant project during high school. From participating in school challenges to the project’s evolution, presenting it at SEPEI IFSC and receiving the “Outstanding Project” award alongside Aline Espíndola was an extremely rewarding achievement.",
+      "4": "Throughout elementary and high school, I participated in several mathematics olympiads, earning bronze medals in OBMEP and the Kangaroo Math Competition, as well as a team medal in OISMF.",
+      "5": "In addition to the medals, I received five honorable mentions in these olympiads, recognizing my consistent performance.",
+      "6": "At IFSC Garopaba, where I completed my integrated high school and technical program in Computer Science with an average of 9.95/10.00, I gained a broad education. In addition to technology, I participated in activities in other subjects, such as physics, including practical experiments like the study of electric currents shown in the photo.",
+      "7": "In Garopaba, my hometown, representing my institution, I participated in a chess tournament and secured a podium position, highlighting my strategic and competitive performance."
     }
   },
   "books": {

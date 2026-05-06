@@ -1,22 +1,22 @@
-import Card from "../../components/Cards";
 import "./style.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import SectionTitle from "../../components/SectionTitle";
 import type { SectionsProps } from "../../App";
 import { contents } from "../../content/languages/content";
-import { projectsContent } from "../../content/projectsContent";
+import { achievementsContent } from "../../content/achievementsContent";
+import ImageCard from "../../components/ImageCard";
 
-function Projects({ language }: SectionsProps) {
-  const content = contents[language].projects;
+function Achievements({ language }: SectionsProps) {
+  const content = contents[language].achievements;
 
-  const cardsData = projectsContent.map((project) => ({
-    ...project,
-    description: content.descriptions[project.id],
+  const cardsData = achievementsContent.map((achievement) => ({
+    ...achievement,
+    description: content.descriptions[achievement.id as keyof typeof content.descriptions],
   }));
 
   return (
-    <div className="projects" id="projetos">
+    <div className="achievements" id="conquistas">
       <SectionTitle title={content.title} positioning="mid-left" />
 
       <div className="carousel">
@@ -24,13 +24,12 @@ function Projects({ language }: SectionsProps) {
           showArrows
           showThumbs={false}
           showStatus={false}
-          showIndicators={false}
           infiniteLoop
           emulateTouch
         >
           {cardsData.map((card) => (
             <div key={card.id}>
-              <Card {...card} language={language} />
+              <ImageCard {...card}/>
             </div>
           ))}
         </Carousel>
@@ -39,4 +38,4 @@ function Projects({ language }: SectionsProps) {
   );
 }
 
-export default Projects;
+export default Achievements;

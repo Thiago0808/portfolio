@@ -8,6 +8,7 @@ import Footer from "./sections/footer";
 import Education from "./sections/formation";
 import Projects from "./sections/projects";
 import Skills from "./sections/skills";
+import Achievements from "./sections/achievements";
 import Books from "./sections/books";
 
 export type Language = "br" | "en";
@@ -38,6 +39,9 @@ function App() {
       <Experience language={language} />
       <hr />
 
+      <Achievements language={language} />
+      <hr />
+      
       <Books language={language} />
       <hr />
 

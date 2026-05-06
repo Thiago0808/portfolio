@@ -6,6 +6,7 @@
     "projects": "Projetos",
     "education": "Formação",
     "experience": "Experiência",
+    "achievements": "Conquistas",
     "contacts": "Contatos",
     "changeLanguage": "Trocar idioma"
   },
@@ -178,6 +179,18 @@
           "Produziu mais de 5 documentações técnicas e rotas no Postman, facilitando a manutenção futura e o onboarding de novos desenvolvedores."
         ]
       }
+    }
+  },
+  "achievements":{
+    "title": "CONQUISTAS",
+    "descriptions": {
+      "1": "Estou há mais de um ano na empresa, onde tive minha maior evolução profissional. Atuei em praticamente todo o ciclo de desenvolvimento, adquirindo experiência em frontend, backend, banco de dados e infraestrutura, além de suporte e atendimento ao cliente.",
+      "2": "Em 2023, participei do Startup Weekend Garopaba, uma maratona de empreendedorismo de 54 horas voltada à criação e validação de ideias de negócio. Minha equipe desenvolveu um projeto completo e o apresentou para investidores, conquistando o 3º lugar.",
+      "3": "O FaculMatch foi meu projeto mais relevante no ensino médio. Desde a participação em desafios escolares até a evolução do projeto, apresentá-lo no SEPEI IFSC e receber o prêmio de projeto destaque, junto à Aline Espíndola, foi uma conquista extremamente gratificante.",
+      "4": "Ao longo do ensino fundamental e médio, participei de diversas olimpíadas de matemática, conquistando medalhas de bronze na OBMEP e no Canguru Matemático, além de uma medalha em equipe na OISMF.",
+      "5": "Além das medalhas, recebi cinco menções honrosas nessas olimpíadas, reconhecendo meu desempenho consistente.",
+      "6": "No IFSC Garopaba, onde concluí o ensino médio integrado ao curso técnico em informática com média 9,95/10,00, adquiri uma formação ampla. Além da área de tecnologia, participei de atividades em outras disciplinas, como física, incluindo experimentos práticos, como o estudo de correntes elétricas apresentado na foto.",
+      "7": "Em Garopaba, minha cidade, representando minha instituição, participei de um torneio de xadrez e conquistei uma posição no pódio, destacando meu desempenho estratégico e competitivo."
     }
   },
   "books": {
