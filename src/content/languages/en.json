@@ -193,6 +193,56 @@
       "7": "In Garopaba, my hometown, representing my institution, I participated in a chess tournament and secured a podium position, highlighting my strategic and competitive performance."
     }
   },
+  "books": {
+    "title": "BOOKS",
+    "items": {
+      "1": {
+        "title": "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development",
+        "genre": "Software Engineering",
+        "description": "A practical guide to object-oriented analysis and design using UML, focusing on iterative development and real-world application of design patterns."
+      },
+      "2": {
+        "title": "Network Infrastructure",
+        "genre": "Computer Networks",
+        "description": "An introduction to the fundamentals of network infrastructure, covering concepts such as topology, hardware, and communication protocols."
+      },
+      "3": {
+        "title": "Information Security",
+        "genre": "Cybersecurity",
+        "description": "An overview of information security principles, including data protection, risk management, and strategies to safeguard digital systems."
+      },
+      "4": {
+        "title": "Learn Data Mining: Theory and Practice",
+        "genre": "Data Science",
+        "description": "A comprehensive introduction to data mining concepts, combining theoretical foundations with practical techniques for extracting insights from data."
+      },
+      "5": {
+        "title": "Database Design: A Practical Approach",
+        "genre": "Databases",
+        "description": "A hands-on guide to database design, covering modeling, normalization, and implementation of efficient database systems."
+      },
+      "6": {
+        "title": "Understanding Artificial Intelligence: An Illustrated Guide",
+        "genre": "Artificial Intelligence",
+        "description": "A visual and accessible introduction to artificial intelligence, explaining key concepts, history, and real-world applications."
+      },
+      "7": {
+        "title": "Data Structures",
+        "genre": "Computer Science",
+        "description": "An introduction to essential data structures, focusing on their implementation, efficiency, and application in problem-solving."
+      },
+      "8": {
+        "title": "Fundamentals of Computing: Introduction to Data Processing",
+        "genre": "Computer Science",
+        "description": "A beginner-friendly overview of computing fundamentals, including basic concepts of data processing and information systems."
+      },
+      "9": {
+        "title": "Level Up! The Guide to Great Video Game Design",
+        "genre": "Game Design",
+        "description": "A practical guide to video game design, covering mechanics, player experience, and techniques for creating engaging games."
+      }
+    }
+  },
   "footer": {
     "developed": "Developed by Thiago Martins",
     "contacts": {
