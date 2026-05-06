@@ -28,7 +28,7 @@ function Skills({ language }: SectionsProps) {
   }));
 
   return (
-    <div className="skills" id="habilidades">
+    <div className="skills" id="skills">
       <SectionTitle title={content.title} positioning="center" />
       <MySQLTable data={translatedData} />
     </div>

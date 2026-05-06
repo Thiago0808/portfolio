@@ -31,7 +31,7 @@ function Books({ language }: SectionsProps) {
   const stars = (n: number) => "★".repeat(n) + "☆".repeat(5 - n);
 
   return (
-    <div className="books-section" id="livros">
+    <div className="books-section" id="books">
       <SectionTitle title="BOOKS" positioning="center" />
 
       <div className="book-wrapper">

@@ -14,7 +14,7 @@ function Experience({ language }: SectionsProps) {
   }));
 
   return (
-    <div className="experience" id="experiencia">
+    <div className="experience" id="experience">
       <SectionTitle title={content.title} positioning="mid-right" />
 
       <div className="experiences-div">

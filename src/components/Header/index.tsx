@@ -27,14 +27,14 @@ const Header: React.FC<HeaderProps> = ({ language, setLanguage }) => {
       />
 
       <nav className="header-nav">
-        <a href="#sobre-mim">{content.about}</a>
-        <a href="#habilidades">{content.skills}</a>
-        <a href="#projetos">{content.projects}</a>
-        <a href="#formacao">{content.education}</a>
-        <a href="#experiencia">{content.experience}</a>
-        <a href="#conquistas">{content.achievements}</a>
-        <a href="#livros">{content.books}</a>
-        <a href="#contatos">{content.contacts}</a>
+        <a href="#about">{content.about}</a>
+        <a href="#skills">{content.skills}</a>
+        <a href="#projects">{content.projects}</a>
+        <a href="#education">{content.education}</a>
+        <a href="#experience">{content.experience}</a>
+        <a href="#achievements">{content.achievements}</a>
+        <a href="#books">{content.books}</a>
+        <a href="#contacts">{content.contacts}</a>
       </nav>
 
       <button className="language-toggle" onClick={toggleLanguage}>

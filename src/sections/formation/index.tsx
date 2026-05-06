@@ -14,7 +14,7 @@ function Education({ language }: SectionsProps) {
   }));
 
   return (
-    <div className="education" id="formacao">
+    <div className="education" id="education">
       <SectionTitle title={content.title} positioning="center" />
       <div className="formations">
         {cardsData.map((card) => (

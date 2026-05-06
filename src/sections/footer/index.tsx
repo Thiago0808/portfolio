@@ -14,7 +14,7 @@ function Footer({ language }: SectionsProps) {
     : cvPt;
   
   return (
-    <footer className="footer" id="contatos">
+    <footer className="footer" id="contacts">
       <div className="footer-icons">
         <a
           href="https://github.com/Thiago0808"

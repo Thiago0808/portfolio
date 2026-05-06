@@ -9,7 +9,7 @@ function About({ language }: SectionsProps) {
   const content = contents[language].about;
   
   return (
-    <div className="about" id="sobre-mim">
+    <div className="about" id="about">
       <SectionTitle title={content.title} positioning='MID-LEFT' />
 
       <div className="about-content">

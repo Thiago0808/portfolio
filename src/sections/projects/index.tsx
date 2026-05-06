@@ -16,7 +16,7 @@ function Projects({ language }: SectionsProps) {
   }));
 
   return (
-    <div className="projects" id="projetos">
+    <div className="projects" id="projects">
       <SectionTitle title={content.title} positioning="mid-left" />
 
       <div className="carousel">
