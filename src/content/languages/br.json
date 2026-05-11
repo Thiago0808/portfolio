@@ -244,6 +244,27 @@
       }
     }
   },
+  "faq": {
+    "title": "PERGUNTAS",
+    "items": {
+      "1": {
+        "question": "What technologies do you work with?",
+        "answer": "I work mainly with TypeScript, React, Node.js, and SQL/NoSQL databases. I also have experience with mobile development using React Native and REST API design."
+      },
+      "2": {
+        "question": "Are you open to freelance or remote work?",
+        "answer": "Yes! I'm open to both freelance projects and full-time remote opportunities. Feel free to reach out through the contact section and we can discuss what fits best."
+      },
+      "3": {
+        "question": "How did you get into programming?",
+        "answer": "I started my programming journey at IFSC Garopaba, where I took a technical course in Information Technology integrated with high school. That experience gave me a strong foundation and sparked my passion for software development."
+      },
+      "4": {
+        "question": "Do you have experience working in teams?",
+        "answer": "Yes, I've worked in team environments using agile methodologies, version control with Git, and collaborative tools. I value clear communication and good code review practices."
+      }
+    }
+  },
   "footer": {
     "developed": "Desenvolvido por Thiago Martins",
     "contacts": {

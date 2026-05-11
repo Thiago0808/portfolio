@@ -1,4 +1,4 @@
-import Card from "../../components/Cards";
+import Card from "../../components/cards";
 import "./style.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";

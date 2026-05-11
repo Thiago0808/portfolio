@@ -10,6 +10,7 @@ import Projects from "./sections/projects";
 import Skills from "./sections/skills";
 import Achievements from "./sections/achievements";
 import Books from "./sections/books";
+import FAQ from "./sections/faq";
 
 export type Language = "br" | "en";
 
@@ -43,6 +44,9 @@ function App() {
       <hr />
       
       <Books language={language} />
+      <hr />
+
+      <FAQ language={language} />
       <hr />
 
       <Footer language={language} />

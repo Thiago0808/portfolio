@@ -1,0 +1,23 @@
+.faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.faq-list {
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .faq {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .faq {
+    width: 100%;
+  }
+}
