@@ -248,20 +248,24 @@
     "title": "PERGUNTAS",
     "items": {
       "1": {
-        "question": "What technologies do you work with?",
-        "answer": "I work mainly with TypeScript, React, Node.js, and SQL/NoSQL databases. I also have experience with mobile development using React Native and REST API design."
+        "question": "Como você começou na programação?",
+        "answer": "Eu decidi fazer meu ensino médio no Instututo Federal de Santa Catarina, em minha cidade. Era integrado, com as opções sendo informática ou adminstração. Como sempre gostei de tecnologia, escolhi informática. Lá, me apaixonei por programação e desde então, tenho dedicado ambas minhas carreiras profissional e acadêmica nessa área, buscando sempre aprender e me desenvolver cada vez mais."
       },
       "2": {
-        "question": "Are you open to freelance or remote work?",
-        "answer": "Yes! I'm open to both freelance projects and full-time remote opportunities. Feel free to reach out through the contact section and we can discuss what fits best."
+        "question": "Você trabalha com freelancer?",
+        "answer": "Sim, já trabalhei anteriormente nisso, como visto no projeto Sanctuario, tendo aberto meu CNPJ, além de ter trabalhado em outros projetos menores, sob minha responsabilidade. Estou aberto tanto a receber por hora trabalhada, quanto por projeto, dependendo da demanda e do escopo do trabalho. Sinta-se à vontade para entrar em contato para discutirmos mais detalhes sobre possíveis colaborações!"
       },
       "3": {
-        "question": "How did you get into programming?",
-        "answer": "I started my programming journey at IFSC Garopaba, where I took a technical course in Information Technology integrated with high school. That experience gave me a strong foundation and sparked my passion for software development."
+        "question": "Coomo entrar em contato com você?",
+        "answer": "No rodapé do site, há uma seção de contatos com links diretos para meu e-mail, LinkedIn, GitHub e WhatsApp. Você pode clicar em qualquer um desses ícones para entrar em contato comigo de forma rápida e fácil. Estou sempre aberto a novas conexões e oportunidades de colaboração!"
       },
       "4": {
-        "question": "Do you have experience working in teams?",
-        "answer": "Yes, I've worked in team environments using agile methodologies, version control with Git, and collaborative tools. I value clear communication and good code review practices."
+        "question": "O que você está aprendendo atualmente?",
+        "answer": "Na faculdade, tenho estudado sobre arquitetura de software, padrões de projeto, redes de computadores e desenvolvimento orientado a objetos! No trabalho, tenho aprendido bastante sobre infraestrutura e integração com sistema de clientes. Em meu tempo livre, quero aprender mais sobre outras linguagens que ainda não conheço e fugindo da área, tenho lido sobre e-commerce."
+      },
+      "5": {
+        "question": "Que outras coisas está disposto?",
+        "answer": "Além de trabalhar no regime CLT, também posso atuar com freelancer ou PJ, dependendo do projeto. Também estou disposto a trabalhos e reuniões em fuso-horários diferentes, assim como trabalhar em inglês. Minha única preferência verdadeira é o trabalho remoto."
       }
     }
   },
