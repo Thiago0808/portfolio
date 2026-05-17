@@ -182,6 +182,18 @@
       }
     }
   },
+  "recommendations": {
+    "title": "RECOMENDAÇÕES",
+    "texts": {
+      "rec1": "Trabalhei diretamente com este desenvolvedor em projetos desafiadores e fiquei impressionada com sua capacidade de entregar soluções robustas e bem estruturadas. Ele demonstra maturidade técnica muito além da sua experiência, sempre buscando as melhores práticas e aprendendo rapidamente. Um profissional que recomendo sem hesitação para qualquer equipe que busca qualidade e comprometimento",
+      "rec2": "Trabalhei diretamente com este desenvolvedor em projetos desafiadores e fiquei impressionada com sua capacidade de entregar soluções robustas e bem estruturadas. Ele demonstra maturidade técnica muito além da sua experiência, sempre buscando as melhores práticas e aprendendo rapidamente. Um profissional que recomendo sem hesitação para qualquer equipe que busca qualidade e comprometimento",
+      "rec3": "Trabalhei diretamente com este desenvolvedor em projetos desafiadores e fiquei impressionada com sua capacidade de entregar soluções robustas e bem estruturadas. Ele demonstra maturidade técnica muito além da sua experiência, sempre buscando as melhores práticas e aprendendo rapidamente. Um profissional que recomendo sem hesitação para qualquer equipe que busca qualidade e comprometimento",
+      "rec4": "Trabalhei diretamente com este desenvolvedor em projetos desafiadores e fiquei impressionada com sua capacidade de entregar soluções robustas e bem estruturadas. Ele demonstra maturidade técnica muito além da sua experiência, sempre buscando as melhores práticas e aprendendo rapidamente. Um profissional que recomendo sem hesitação para qualquer equipe que busca qualidade e comprometimento",
+      "rec5": "Trabalhei diretamente com este desenvolvedor em projetos desafiadores e fiquei impressionada com sua capacidade de entregar soluções robustas e bem estruturadas. Ele demonstra maturidade técnica muito além da sua experiência, sempre buscando as melhores práticas e aprendendo rapidamente. Um profissional que recomendo sem hesitação para qualquer equipe que busca qualidade e comprometimento"
+    },
+    "more": "VER MAIS",
+    "less": "VER MENOS"
+  },
   "achievements":{
     "title": "CONQUISTAS",
     "descriptions": {
