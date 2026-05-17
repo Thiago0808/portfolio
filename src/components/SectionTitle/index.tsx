@@ -3,13 +3,12 @@ import "./style.css";
 
 interface SectionTitleProps {
   title: string;
-  positioning: string;
 }
 
-const SectionTitle: React.FC<SectionTitleProps> = ({ title, positioning}) => {
+const SectionTitle: React.FC<SectionTitleProps> = ({ title}) => {
   return (
-    <div className={`title-div div-${positioning}`}>
-      <h1 className={`h1-${positioning}`}>{title}</h1>
+    <div className={`title-div div-center`}>
+      <h1 className={`h1-center`}>{title}</h1>
     </div>
   );
 };

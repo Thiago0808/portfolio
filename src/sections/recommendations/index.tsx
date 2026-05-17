@@ -44,10 +44,7 @@ function Recommendations({ language }: SectionsProps) {
  
   return (
     <section className="recommendations" id="recommendations">
-      <SectionTitle
-        title={content.title}
-        positioning="mid-left"
-      />
+      <SectionTitle title={content.title}/>
  
       <div className="rec-carousel-wrapper">
         {canPrev && (

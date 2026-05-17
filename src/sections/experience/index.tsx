@@ -15,7 +15,7 @@ function Experience({ language }: SectionsProps) {
 
   return (
     <div className="experience" id="experience">
-      <SectionTitle title={content.title} positioning="mid-right" />
+      <SectionTitle title={content.title}/>
 
       <div className="experiences-div">
         {cardsData.map((card) => (

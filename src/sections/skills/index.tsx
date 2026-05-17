@@ -29,7 +29,7 @@ function Skills({ language }: SectionsProps) {
 
   return (
     <div className="skills" id="skills">
-      <SectionTitle title={content.title} positioning="center" />
+      <SectionTitle title={content.title}/>
       <MySQLTable data={translatedData} />
     </div>
   );
