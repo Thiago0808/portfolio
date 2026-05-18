@@ -1,4 +1,5 @@
 import faculmatchImg from "../assets/img/projects/faculmatch.png";
+import alineImg from "../assets/img/recommendations/aline.jpg";
 
 
 export interface Recommendation {
@@ -12,10 +13,10 @@ export interface Recommendation {
 export const recommendationsContent: Recommendation[] = [
   {
     id: "rec1",
-    name: "Ana Paula Souza",
-    role: "Tech Lead",
-    company: "Acme Corp",
-    photo: faculmatchImg,
+    name: "Aline Espindola",
+    role: "Frontend Developer",
+    company: "Vialaser",
+    photo: alineImg,
   },
   {
     id: "rec2",
