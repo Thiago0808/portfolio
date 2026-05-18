@@ -32,8 +32,8 @@ const Header: React.FC<HeaderProps> = ({ language, setLanguage }) => {
         <a href="#projects">{content.projects}</a>
         <a href="#education">{content.education}</a>
         <a href="#experience">{content.experience}</a>
+        <a href="#recommendations">{content.recommendations}</a>
         <a href="#achievements">{content.achievements}</a>
-        <a href="#books">{content.books}</a>
         <a href="#contacts">{content.contacts}</a>
       </nav>
 
