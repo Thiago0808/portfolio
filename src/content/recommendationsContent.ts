@@ -1,6 +1,6 @@
 import faculmatchImg from "../assets/img/projects/faculmatch.png";
 import alineImg from "../assets/img/recommendations/aline.jpg";
-
+import emmanuelImg from "../assets/img/recommendations/emmanuel.jpg";
 
 export interface Recommendation {
   id: string;
@@ -20,10 +20,10 @@ export const recommendationsContent: Recommendation[] = [
   },
   {
     id: "rec2",
-    name: "Carlos Henrique Lima",
-    role: "Product Manager",
-    company: "StartupXYZ",
-    photo: faculmatchImg,
+    name: "Emmanuel Públio",
+    role: "Backend Developer",
+    company: "Staleks Pro Brazil",
+    photo: emmanuelImg,
   },
   {
     id: "rec3",
