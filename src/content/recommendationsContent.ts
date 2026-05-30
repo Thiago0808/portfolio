@@ -1,6 +1,7 @@
 import faculmatchImg from "../assets/img/projects/faculmatch.png";
 import alineImg from "../assets/img/recommendations/aline.jpg";
-import emmanuelImg from "../assets/img/recommendations/emmanuel.jpg";
+import emmanuelImg from "../assets/img/recommendations/emmanuel.png";
+import leandroImg from "../assets/img/recommendations/leandro.jpg";
 
 export interface Recommendation {
   id: string;
@@ -27,10 +28,10 @@ export const recommendationsContent: Recommendation[] = [
   },
   {
     id: "rec3",
-    name: "Fernanda Oliveira",
-    role: "UX Designer",
-    company: "Design Studio",
-    photo: faculmatchImg,
+    name: "Leandro Crispim",
+    role: "Senior Full Stack Developer",
+    company: "Del Grande",
+    photo: leandroImg,
   },
   {
     id: "rec4",
