@@ -18,7 +18,8 @@ function Recommendations({ language }: SectionsProps) {
   
   const recommendationsData = recommendationsContent.map((recommendations) => ({
         ...recommendations,
-        text: content.texts[recommendations.id as keyof typeof content.texts]
+        text: content.texts[recommendations.id as keyof typeof content.texts],
+        role: content.roles[recommendations.id as keyof typeof content.roles]
     }));
  
   const visibleItems = Array.from(
