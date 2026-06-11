@@ -189,13 +189,15 @@
       "rec1": "Trabalhei com Thiago Martins na Del Grande por 6 meses. Durante esse tempo, ele se destacou, e muito, pelo rápido aprendizado que teve das tecnologias da empresa, busca constante pela qualidade do software e proatividade na equipe. Ele, por iniciativa própria, fez análise completa do software, focando em bugs e escalabilidade. Nisso, resolveu centenas de bugs, sendo 300 apenas em um dos serviços da empresa",
       "rec2": "Tive a oportunidade de trabalhar com o Thiago, um desenvolvedor que sempre demonstrou forte interesse em evoluir e aprender continuamente. Buscava entender as soluções a fundo, indo além da resolução dos problemas do dia a dia, o que resultou em uma evolução técnica muito rápida. Além disso, é uma pessoa metódica e organizada, com alto senso de comprometimento, atenção aos detalhes e responsabilidade tanto nas entregas quanto no cumprimento de prazos",
       "rec3": "Thiago é um desenvolvedor que demonstra maturidade técnica e forte interesse em evoluir continuamente, buscando entender as soluções em profundidade e indo além da simples resolução dos problemas do dia a dia, sempre com atenção aos trade-offs e aos impactos das decisões técnicas. No tempo em que trabalhamos juntos, sempre se mostrou comprometido, organizado e responsável, contribuindo de forma consistente para a qualidade das entregas e para o crescimento do time",
-      "rec4": "Excelente trabalhar com Thiago, sempre cumpriu todos os prazos e metas, transparente nos procedimentos e boa comunicaçã."
+      "rec4": "Excelente trabalhar com Thiago, sempre cumpriu todos os prazos e metas, transparente nos procedimentos e boa comunicação.",
+      "rec5": "Sou a professora de matemática Miriam Narvaz e tive o previlégio de ter o Thiago como monitor da minha área no IFSC Garopaba. O Thiago era procurado pelos estudantes inclusive na hora do almoço. Sempre muito solicito, dedicado e extremamente detalhista nas explicações para com todos (as), que o procuravam. Gratidão por tanto e por tudo Thiago."
     },
     "roles":{
       "rec1": "Desenvolvedora Frontend",
       "rec2": "Desenvolvedor Backend",
       "rec3": "Desenvolvedor Sênior Full Stack",
-      "rec4": "Contador "
+      "rec4": "Contador",
+      "rec5": "Professora de Matemática"
     },
     "more": "VER MAIS",
     "less": "VER MENOS"

@@ -189,13 +189,15 @@
       "rec1": "I worked with Thiago Martins at Del Grande for 6 months. During that time, he stood out greatly for his fast learning of the company’s technologies, constant pursuit of software quality, and proactivity within the team. On his own initiative, he conducted a complete analysis of the software, focusing on bugs and scalability. As a result, he resolved hundreds of bugs, including 300 in just one of the company’s services",
       "rec2": "I had the opportunity to work with Thiago, a developer who consistently demonstrated a strong drive to grow and continuously learn. He always sought to deeply understand solutions, going beyond simply solving day-to-day problems, which resulted in very rapid technical growth. In addition, he is a methodical and organized professional, with a high level of commitment, attention to detail, and responsibility both in deliveries and in meeting deadlines",
       "rec3": "Thiago is a developer who demonstrates technical maturity and a strong interest in continuous growth, always seeking to deeply understand solutions and going beyond simply solving day-to-day problems, with constant attention to trade-offs and the impacts of technical decisions. During the time we worked together, he consistently showed commitment, organization, and responsibility, contributing in a reliable way to the quality of deliveries and to the growth of the team",
-      "rec4": "It was excellent working with Thiago. He consistently met all deadlines and goals, was transparent in all procedures, and maintained clear and effective communication throughout the project"
+      "rec4": "It was excellent working with Thiago. He consistently met all deadlines and goals, was transparent in all procedures, and maintained clear and effective communication throughout the project",
+      "rec5": "I am mathematics teacher Miriam Narvaz, and I had the privilege of having Thiago as a monitor in my area at IFSC Garopaba. Thiago was sought out by students even during lunchtime. He was always very helpful, dedicated, and extremely meticulous in his explanations to everyone who sought his assistance. Thank you for so much and for everything, Thiago."
     },
     "roles":{
       "rec1": "Frontend Developer",
       "rec2": "Backend Developer",
       "rec3": "Senior Full Stack Developer",
-      "rec4": "Accountant "
+      "rec4": "Accountant",
+      "rec5": "Math Teacher"
     },
     "more": "SEE MORE",
     "less": "SEE LESS"
