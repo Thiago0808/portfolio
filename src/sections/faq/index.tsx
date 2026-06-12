@@ -9,7 +9,7 @@ function FAQ({ language }: SectionsProps) {
 
   return (
     <div className="faq" id="faq">
-      <SectionTitle title="FAQ" positioning="mid-right" />
+      <SectionTitle title="FAQ"/>
       <div className="faq-list">
         {items.map((item) => (
           <Question question={item.question} answer={item.answer} />
