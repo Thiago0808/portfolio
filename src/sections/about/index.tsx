@@ -1,7 +1,7 @@
 import './style.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SectionTitle from '../../components/SectionTitle';
-import aboutImg from '../../assets/img/about.jpg';
+import aboutImg from '../../assets/img/about.jpeg';
 import type { SectionsProps } from '../../App';
 import { contents } from '../../content/languages/content';
 

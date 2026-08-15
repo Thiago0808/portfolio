@@ -34,6 +34,7 @@ export const skillsContent: TechItem[] = [
   { name: "PHP", type: "language", time: "gt_2_years" },
   { name: "Java", type: "language", time: "gt_1_year" },
   { name: "Python", type: "language", time: "gt_3_years" },
+  { name: "C++", type: "language", time: "lt_6_months" },
 
   { name: "React", type: "library", time: "gt_1_year" },
   { name: "React Native", type: "library", time: "6_months" },

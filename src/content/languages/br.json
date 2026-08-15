@@ -241,6 +241,16 @@
         "title": "Level Up! Um Guia para o Design de Grandes Jogos",
         "genre": "Design de Jogos",
         "description": "Um guia prático sobre design de jogos, abordando mecânicas, experiência do jogador e técnicas para criar jogos envolventes."
+      },
+      "10": {
+        "title": "Padrões de Projeto: Soluções Reutilizáveis de Software Orientado a Objetos",
+        "genre": "Engenharia de Software",
+        "description": "Uma referência clássica sobre padrões de projeto orientados a objetos, apresentando soluções reutilizáveis para problemas recorrentes no desenvolvimento de software."
+      },
+      "11": {
+        "title": "Use a Cabeça! Desenvolvimento de Software",
+        "genre": "Engenharia de Software",
+        "description": "Uma abordagem prática e visual para aprender conceitos fundamentais de desenvolvimento de software, utilizando exemplos, exercícios e explicações acessíveis."
       }
     }
   },
@@ -256,7 +266,7 @@
         "answer": "Sim, já trabalhei anteriormente nisso, como visto no projeto Sanctuario, tendo aberto meu CNPJ, além de ter trabalhado em outros projetos menores, sob minha responsabilidade. Estou aberto tanto a receber por hora trabalhada, quanto por projeto, dependendo da demanda e do escopo do trabalho. Sinta-se à vontade para entrar em contato para discutirmos mais detalhes sobre possíveis colaborações!"
       },
       "3": {
-        "question": "Coomo entrar em contato com você?",
+        "question": "Como entrar em contato com você?",
         "answer": "No rodapé do site, há uma seção de contatos com links diretos para meu e-mail, LinkedIn, GitHub e WhatsApp. Você pode clicar em qualquer um desses ícones para entrar em contato comigo de forma rápida e fácil. Estou sempre aberto a novas conexões e oportunidades de colaboração!"
       },
       "4": {
@@ -266,6 +276,10 @@
       "5": {
         "question": "Que outras coisas está disposto?",
         "answer": "Além de trabalhar no regime CLT, também posso atuar com freelancer ou PJ, dependendo do projeto. Também estou disposto a trabalhos e reuniões em fuso-horários diferentes, assim como trabalhar em inglês. Minha única preferência verdadeira é o trabalho remoto."
+      },
+      "6": {
+        "question": "Qual seu nível de senioridade?",
+        "answer": "Oficialmente, sou designado como Desenvolvedor Júnior. Entretanto, venho assumindo progressivamente responsabilidades que vão além das esperadas para essa posição, especialmente na condução de tarefas mais complexas, apoio e orientação a outros desenvolvedores e na tomada de decisões técnicas. Considero que estou em um processo de evolução para o nível Pleno, buscando ampliar cada vez mais minha autonomia, responsabilidade e capacidade de contribuir tecnicamente com a equipe."
       }
     }
   },

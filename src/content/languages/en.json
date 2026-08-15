@@ -241,6 +241,16 @@
         "title": "Level Up! The Guide to Great Video Game Design",
         "genre": "Game Design",
         "description": "A practical guide to video game design, covering mechanics, player experience, and techniques for creating engaging games."
+      },
+      "10": {
+        "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+        "genre": "Software Engineering",
+        "description": "A classic reference on object-oriented design patterns, presenting reusable solutions to recurring problems in software development."
+      },
+      "11": {
+        "title": "Head First Software Development",
+        "genre": "Software Engineering",
+        "description": "A practical and visual introduction to software development concepts, using examples, exercises, and accessible explanations to make learning engaging."
       }
     }
   },
@@ -266,6 +276,10 @@
       "5": {
         "question": "What kinds of opportunities are you open to?",
         "answer": "Besides working under a CLT contract, I am also open to freelance or contractor/PJ opportunities, depending on the project. I am comfortable working across different time zones, attending meetings in English, and collaborating internationally. My only real preference is remote work."
+      },
+      "6": {
+        "question": "What is your level of seniority?",
+        "answer": "Officially, I am designated as a Junior Developer. However, I have been progressively taking on responsibilities beyond what is typically expected for this position, particularly in handling more complex tasks, supporting and guiding other developers, and making technical decisions. I consider myself to be progressing toward a Mid-Level position, continuously working to increase my autonomy, responsibility, and ability to contribute technically to the team."
       }
     }
   },

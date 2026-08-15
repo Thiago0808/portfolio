@@ -16,6 +16,8 @@ import book6Img from "../assets/img/books/book6.jpg";
 import book7Img from "../assets/img/books/book7.webp";
 import book8Img from "../assets/img/books/book8.jpg";
 import book9Img from "../assets/img/books/book9.jpg";
+import book10Img from "../assets/img/books/book10.jpg";
+import book11Img from "../assets/img/books/book11.jpg";
 
 
 export const booksContent: BookItem[] = [
@@ -90,5 +92,21 @@ export const booksContent: BookItem[] = [
     pages: 504,
     rating: 5,
     image: book9Img,
-  }
+  },
+  {
+    id: "10",
+    author: "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    year: 1995,
+    pages: 395,
+    rating: 5,
+    image: book10Img,
+  },
+  {
+    id: "11",
+    author: "Dan Pilone, Russ Miles",
+    year: 2008,
+    pages: 608,
+    rating: 5,
+    image: book11Img,
+  },
 ];
