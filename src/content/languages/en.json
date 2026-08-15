@@ -274,6 +274,9 @@
       }
     }
   },
+  "presentation": {
+    "title": "PRESENTATION"
+  },
   "faq": {
     "title": "FAQ",
     "items": {

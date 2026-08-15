@@ -1,0 +1,50 @@
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Layout padrão (desktop) */
+.presentation-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+/* Vídeo grande */
+.presentation-video {
+  width: 600px;
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+/* Texto */
+.presentation-text {
+  max-width: 500px;
+  font-size: 1.2rem;
+  color: white;
+  text-align: justify;
+}
+
+/* 📱 Responsivo (mobile) */
+@media (max-width: 768px) {
+  .presentation-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .presentation-video {
+    width: 100%;
+  }
+
+  .presentation-text {
+    text-align: left;
+  }
+}
