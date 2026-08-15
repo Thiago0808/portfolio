@@ -37,7 +37,7 @@ function Footer({ language }: SectionsProps) {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/thiago-martins-9b2353285/"
+          href="https://www.linkedin.com/in/thiago-martins-oliveira/"
           target="_blank"
           rel="noopener noreferrer"
           className="social-media-link"

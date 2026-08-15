@@ -17,7 +17,7 @@ function Achievements({ language }: SectionsProps) {
 
   return (
     <div className="achievements" id="achievements">
-      <SectionTitle title={content.title} positioning="mid-left" />
+      <SectionTitle title={content.title}/>
 
       <div className="carousel">
         <Carousel

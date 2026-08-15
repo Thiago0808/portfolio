@@ -32,7 +32,7 @@ function Books({ language }: SectionsProps) {
 
   return (
     <div className="books-section" id="books">
-      <SectionTitle title="BOOKS" positioning="center" />
+      <SectionTitle title="BOOKS"/>
 
       <div className="book-wrapper">
         <button className="nav-btn" onClick={() => navigate(-1)}>←</button>

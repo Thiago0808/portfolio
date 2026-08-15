@@ -10,7 +10,7 @@ function About({ language }: SectionsProps) {
   
   return (
     <div className="about" id="about">
-      <SectionTitle title={content.title} positioning='MID-LEFT' />
+      <SectionTitle title={content.title}/>
 
       <div className="about-content">
         <div className="about-text">

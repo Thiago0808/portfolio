@@ -11,6 +11,7 @@ import Skills from "./sections/skills";
 import Achievements from "./sections/achievements";
 import Books from "./sections/books";
 import FAQ from "./sections/faq";
+import Recommendations from "./sections/recommendations";
 
 export type Language = "br" | "en";
 
@@ -38,6 +39,9 @@ function App() {
       <hr />
 
       <Experience language={language} />
+      <hr />
+
+      <Recommendations language={language} />
       <hr />
 
       <Achievements language={language} />
