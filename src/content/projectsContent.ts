@@ -26,7 +26,7 @@ export const projectsContent: ProjectItem[] = [
     name: "Sanctuario",
     technologies: ["Python", "Flask", "MySQL", "Azure", "React", "TypeScript", "CSS", "ShadCN", "Tailwind"],
     image: sanctuarioImg,
-    link: "https://app.sanctuario.com.br/select",
+    link: "https://www.sanctuario.com.br/",
   },
   {
     id: "timeline",

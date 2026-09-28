@@ -271,6 +271,16 @@
         "title": "Head First Software Development",
         "genre": "Software Engineering",
         "description": "A practical and visual introduction to software development concepts, using examples, exercises, and accessible explanations to make learning engaging."
+      },
+      "12": {
+        "title": "Scrum: A Practical Guide for Agile Projects",
+        "genre": "Software Engineering",
+        "description": "A straightforward and practical guide to Scrum, presenting the principles and practices of agile methodology for managing and developing software projects."
+      },
+      "13": {
+        "title": "Think Python: How to Think Like a Computer Scientist",
+        "genre": "Programming Language",
+        "description": "An accessible introduction to programming with Python, aimed at those who want to think computationally and solve problems in a structured way, updated for Python 3."
       }
     }
   },

@@ -18,6 +18,8 @@ import book8Img from "../assets/img/books/book8.jpg";
 import book9Img from "../assets/img/books/book9.jpg";
 import book10Img from "../assets/img/books/book10.jpg";
 import book11Img from "../assets/img/books/book11.jpg";
+import book12Img from "../assets/img/books/book12.jpg";
+import book13Img from "../assets/img/books/book13.jpg";
 
 
 export const booksContent: BookItem[] = [
@@ -108,5 +110,21 @@ export const booksContent: BookItem[] = [
     pages: 608,
     rating: 5,
     image: book11Img,
+  },
+  {
+    id: "12",
+    author: "Cesar Brod",
+    year: 2015,
+    pages: 198,
+    rating: 4,
+    image: book12Img,
+  },
+  {
+    id: "13",
+    author: "Allen Downey",
+    year: 2016,
+    pages: 309,
+    rating: 4,
+    image: book13Img,
   },
 ];

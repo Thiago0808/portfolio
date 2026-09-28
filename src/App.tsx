@@ -12,7 +12,6 @@ import Achievements from "./sections/achievements";
 import Books from "./sections/books";
 import FAQ from "./sections/faq";
 import Recommendations from "./sections/recommendations";
-import Presentation from "./sections/presentation";
 
 export type Language = "br" | "en";
 
@@ -51,10 +50,8 @@ function App() {
       <Books language={language} />
       <hr />
 
-      <Presentation language={language} />
-      <hr />
-
       <FAQ language={language} />
+      <hr />
 
       <Footer language={language} />
     </div>

@@ -271,6 +271,16 @@
         "title": "Use a Cabeça! Desenvolvimento de Software",
         "genre": "Engenharia de Software",
         "description": "Uma abordagem prática e visual para aprender conceitos fundamentais de desenvolvimento de software, utilizando exemplos, exercícios e explicações acessíveis."
+      },
+      "12": {
+        "title": "Scrum: Guia Prático para Projetos Ágeis",
+        "genre": "Engenharia de Software",
+        "description": "Um guia prático e direto sobre Scrum, apresentando os princípios e práticas da metodologia ágil para gestão e desenvolvimento de projetos de software."
+      },
+      "13": {
+        "title": "Pense em Python: Pense como um Cientista da Computação",
+        "genre": "Linguagem de Programação",
+        "description": "Uma introdução acessível à programação com Python, voltada para quem deseja pensar computacionalmente e resolver problemas de forma estruturada, atualizada para Python 3."
       }
     }
   },

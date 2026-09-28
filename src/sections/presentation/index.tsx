@@ -13,7 +13,7 @@ function Presentation({ language }: SectionsProps) {
 
   return (
     <section className="presentation" id="apresentacao">
-      <SectionTitle title={content.title} positioning="MID-LEFT" />
+      <SectionTitle title={content.title}/>
 
       <div className="presentation-content">
         <video

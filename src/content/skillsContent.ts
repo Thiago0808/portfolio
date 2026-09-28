@@ -34,6 +34,7 @@ export const skillsContent: TechItem[] = [
   { name: "PHP", type: "language", time: "gt_2_years" },
   { name: "Java", type: "language", time: "gt_1_year" },
   { name: "Python", type: "language", time: "gt_3_years" },
+  { name: "Node.js", type: "language", time: "lt_6_months" },
   { name: "C++", type: "language", time: "lt_6_months" },
 
   { name: "React", type: "library", time: "gt_1_year" },
@@ -44,6 +45,7 @@ export const skillsContent: TechItem[] = [
   { name: "PyCharm", type: "ide", time: "1_year" },
   { name: "IntelliJ", type: "ide", time: "1_year" },
   { name: "Android Studio", type: "ide", time: "1_year" },
+  { name: "Apache NetBeans", type: "ide", time: "1_year" },
 
   { name: "Expo", type: "framework", time: "lt_6_months" },
   { name: "Bootstrap", type: "framework", time: "gt_2_years" },
@@ -54,6 +56,7 @@ export const skillsContent: TechItem[] = [
   { name: "MySQL", type: "database", time: "gt_3_years" },
   { name: "MariaDB", type: "database", time: "gt_3_years" },
   { name: "phpMyAdmin", type: "database", time: "gt_2_years" },
+  { name: "PostgreSQL", type: "database", time: "lt_6_months" },
 
   { name: "Vercel", type: "server", time: "gt_1_year" },
   { name: "Sentora", type: "server", time: "1_year" },
