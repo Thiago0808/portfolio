@@ -6,6 +6,7 @@ import About from "./sections/about";
 import Experience from "./sections/experience";
 import Footer from "./sections/footer";
 import Education from "./sections/formation";
+import Certificates from "./sections/certificates";
 import Projects from "./sections/projects";
 import Skills from "./sections/skills";
 import Achievements from "./sections/achievements";
@@ -36,6 +37,9 @@ function App() {
       <hr />
 
       <Education language={language} />
+      <hr />
+
+      <Certificates language={language} />
       <hr />
 
       <Experience language={language} />

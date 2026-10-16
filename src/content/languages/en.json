@@ -5,6 +5,7 @@
     "skills": "Skills",
     "projects": "Projects",
     "education": "Education",
+    "certificates": "Certificates",
     "experience": "Experience",
     "recommendations": "Recommendations",
     "achievements": "Achievements",
@@ -107,10 +108,81 @@
         "description": "After a lot of dedication and study, I was able to enroll in my long-awaited undergraduate degree. Even in my first year, I have been learning a great deal at college, gaining a deeper understanding of the fundamentals of the IT field and acquiring extensive new knowledge in the area. It is always rewarding to apply at work what I learned in the course just a week earlier."
       }
     },
-    "button":{
+    "button": {
       "more": "SEE MORE",
       "less": "SEE LESS"
     }
+  },
+  "certificates": {
+    "title": "CERTIFICATES",
+    "items": {
+      "bluepex": {
+        "title": "BluePex® Certified Cybersecurity Framework Professional",
+        "description": "Certification covering the nine pillars of the BluePex® Cybersecurity Framework: software and hardware inventory, Firewall/UTM, antivirus (EDR), email security, update management, backup, credential control, people management and incident/ticket management, aligned with standards such as ISO, NIST and LGPD."
+      },
+      "bluepex-open-community": {
+        "title": "BluePex® Open Community | Awareness and Compliance",
+        "description": "Security awareness course covering the fundamentals of cybersecurity, data vs. network security, privacy, strong passwords and two-factor authentication, phishing, social engineering, payment fraud, malware, spam and attachments, Wi-Fi and device safety, incident response, and the safe use of AI at work."
+      },
+      "bluepex-networks": {
+        "title": "BluePex® Essentials | Networking Certification",
+        "description": "24-hour course on computer networking fundamentals: basic concepts, network equipment, protocols, IP addressing, basic Windows commands and procedures, and network services and servers."
+      },
+      "bluepex-firewalls": {
+        "title": "BluePex® Essentials | Basic Firewall Certification",
+        "description": "Course on firewall fundamentals: why firewalls exist, IPs, ports and protocols, network segmentation, firewall rules, types of firewalls, NAT, proxy and VPN, and modern firewalls such as WAF, NGFW and cloud firewalls."
+      },
+      "udemy-cpp": {
+        "title": "Learning Basic and Advanced Programming with C++",
+        "description": "20.5-hour Udemy course taught by Professor Marcos Pacheco, covering C++ programming from the fundamentals to advanced topics."
+      },
+      "simplilearn-n8n": {
+        "title": "n8n Course: No Code AI Agent Builder",
+        "description": "Simplilearn SkillUp course on building AI agents and automation workflows with n8n, without writing code."
+      },
+      "cursa-laravel": {
+        "title": "Laravel with VueJS by Tony Xepa",
+        "description": "Course of about 4 hours on the Cursa platform on building web applications with Laravel on the backend and Vue.js on the frontend."
+      },
+      "ifsc-docker": {
+        "title": "Docker and Kubernetes Workshop",
+        "description": "3-hour workshop taught by Fernando Rosa during the Systems Analysis and Development Academic Week at IFSC Tubarão, in October 2025."
+      },
+      "ifsc-security": {
+        "title": "Information Security Lecture",
+        "description": "Lecture given by Daniel Cadorin during the Systems Analysis and Development Academic Week at IFSC Tubarão, in October 2025."
+      },
+      "ifsc-ai-agents": {
+        "title": "AI Agents and Automation: How AI Is Transforming Business Processes",
+        "description": "Lecture given by Nicolas Paulo Nasario and Kauê Baesso during the Systems Analysis and Development Academic Week at IFSC Tubarão, in October 2025."
+      },
+      "ifsc-it-management": {
+        "title": "IT Management and Certifications for IT Professionals' Employability",
+        "description": "Lecture given by Prof. Luciano Savio during the Systems Analysis and Development Academic Week at IFSC Tubarão, in October 2025."
+      },
+      "ifsc-interaction-design": {
+        "title": "Interaction Design for Developers",
+        "description": "Lecture given by Bianca Medeiros during the Systems Analysis and Development Academic Week at IFSC Tubarão, in October 2025."
+      },
+      "simplilearn-django": {
+        "title": "Python Django 101",
+        "description": "Simplilearn SkillUp introductory course on web development with Python and the Django framework."
+      },
+      "simplilearn-node": {
+        "title": "Getting Started with NodeJS",
+        "description": "Simplilearn SkillUp introductory course on building server-side applications with Node.js."
+      },
+      "alura-ai": {
+        "title": "Artificial Intelligence Immersion – 2nd Edition",
+        "description": "Alura immersion in partnership with Google, with 5 classes and about 6 hours of content on artificial intelligence and its practical applications."
+      },
+      "startup-weekend": {
+        "title": "Startup Weekend Garopaba",
+        "description": "Certificate of participation in the 54-hour Startup Weekend Garopaba, organized by Nexum Lab in 2023, where my team earned 3rd place."
+      }
+    },
+    "button": "CREDENTIAL",
+    "of": "of"
   },
   "experience": {
     "title": "EXPERIENCE",
@@ -192,7 +264,7 @@
       "rec4": "It was excellent working with Thiago. He consistently met all deadlines and goals, was transparent in all procedures, and maintained clear and effective communication throughout the project",
       "rec5": "I am mathematics teacher Miriam Narvaz, and I had the privilege of having Thiago as a monitor in my area at IFSC Garopaba. Thiago was sought out by students even during lunchtime. He was always very helpful, dedicated, and extremely meticulous in his explanations to everyone who sought his assistance. Thank you for so much and for everything, Thiago."
     },
-    "roles":{
+    "roles": {
       "rec1": "Frontend Developer",
       "rec2": "Backend Developer",
       "rec3": "Senior Full Stack Developer",
@@ -202,7 +274,7 @@
     "more": "SEE MORE",
     "less": "SEE LESS"
   },
-  "achievements":{
+  "achievements": {
     "title": "ACHIEVEMENTS",
     "descriptions": {
       "1": "I have been with the company for over a year, where I experienced my greatest professional growth. I worked across almost the entire development cycle, gaining experience in frontend, backend, databases and infrastructure, as well as support and customer service.",

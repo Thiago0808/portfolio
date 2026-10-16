@@ -5,6 +5,7 @@
     "skills": "Habilidades",
     "projects": "Projetos",
     "education": "Formação",
+    "certificates": "Certificados",
     "experience": "Experiência",
     "recommendations": "Recomendações",
     "achievements": "Conquistas",
@@ -107,10 +108,81 @@
         "description": "Após muito estudo, consegui ingressar na tão sonhada graduação. Ainda no primeiro ano, venho aprendendo muito na faculdade, compreendendo melhor bases da área de informática e adquirindo inúmeros novos conhecimentos do ramo. É sempre incrível poder aplicar no trabalho aquilo que aprendi no curso uma semana atrás."
       }
     },
-    "button":{
+    "button": {
       "more": "VER MAIS",
       "less": "VER MENOS"
     }
+  },
+  "certificates": {
+    "title": "CERTIFICADOS",
+    "items": {
+      "bluepex": {
+        "title": "BluePex® Certified Cybersecurity Framework Professional",
+        "description": "Certificação que abrange os nove pilares do BluePex® Cybersecurity Framework: inventário de software e hardware, Firewall/UTM, antivírus (EDR), segurança de e-mail, gerenciamento de atualizações, backup, controle de credenciais, gestão de pessoas e gestão de tickets e incidentes, alinhados a normas como ISO, NIST e LGPD."
+      },
+      "bluepex-open-community": {
+        "title": "BluePex® Open Community | Conscientização e Compliance",
+        "description": "Curso de conscientização em segurança que aborda os fundamentos da segurança cibernética, segurança de dados x segurança de rede, privacidade, senhas e autenticação em duas etapas, phishing, engenharia social, fraudes de boletos e pagamentos, malware, spam e anexos, Wi-Fi e dispositivos, o que fazer ao suspeitar de golpe e o uso seguro de IA no trabalho."
+      },
+      "bluepex-networks": {
+        "title": "BluePex® Essentials | Certificação em Redes",
+        "description": "Curso de 24 horas sobre fundamentos de redes de computadores: conceitos básicos, equipamentos, protocolos, endereçamento, comandos e procedimentos básicos no Windows e serviços e servidores."
+      },
+      "bluepex-firewalls": {
+        "title": "BluePex® Essentials | Certificação em Firewalls Básico",
+        "description": "Curso sobre fundamentos de firewall: por que firewalls existem, IPs, portas e protocolos, separação de redes, regras de firewall, tipos de firewall, NAT, proxy e VPN, e firewalls modernos como WAF, NGFW e em nuvem."
+      },
+      "udemy-cpp": {
+        "title": "Aprendendo programação básica e avançada com Linguagem C++",
+        "description": "Curso de 20,5 horas na Udemy, ministrado pelo Professor Marcos Pacheco, abordando programação em C++ desde os fundamentos até tópicos avançados."
+      },
+      "simplilearn-n8n": {
+        "title": "n8n Course: No Code AI Agent Builder",
+        "description": "Curso da Simplilearn SkillUp sobre criação de agentes de IA e fluxos de automação com n8n, sem escrever código."
+      },
+      "cursa-laravel": {
+        "title": "Laravel with VueJS by Tony Xepa",
+        "description": "Curso de cerca de 4 horas na plataforma Cursa sobre desenvolvimento de aplicações web com Laravel no backend e Vue.js no frontend."
+      },
+      "ifsc-docker": {
+        "title": "Oficina de Docker e Kubernetes",
+        "description": "Oficina de 3 horas ministrada por Fernando Rosa durante a Semana Acadêmica de Análise e Desenvolvimento de Sistemas do IFSC Tubarão, em outubro de 2025."
+      },
+      "ifsc-security": {
+        "title": "Palestra de Segurança da Informação",
+        "description": "Palestra ministrada por Daniel Cadorin durante a Semana Acadêmica de Análise e Desenvolvimento de Sistemas do IFSC Tubarão, em outubro de 2025."
+      },
+      "ifsc-ai-agents": {
+        "title": "Agentes de IA e Automação: Como a IA está transformando processos de negócio",
+        "description": "Palestra ministrada por Nicolas Paulo Nasario e Kauê Baesso durante a Semana Acadêmica de Análise e Desenvolvimento de Sistemas do IFSC Tubarão, em outubro de 2025."
+      },
+      "ifsc-it-management": {
+        "title": "Gestão de TI e Certificações para Empregabilidade de Profissionais de TI",
+        "description": "Palestra ministrada pelo Prof. Luciano Savio durante a Semana Acadêmica de Análise e Desenvolvimento de Sistemas do IFSC Tubarão, em outubro de 2025."
+      },
+      "ifsc-interaction-design": {
+        "title": "Design de Interação para Desenvolvedores",
+        "description": "Palestra ministrada por Bianca Medeiros durante a Semana Acadêmica de Análise e Desenvolvimento de Sistemas do IFSC Tubarão, em outubro de 2025."
+      },
+      "simplilearn-django": {
+        "title": "Python Django 101",
+        "description": "Curso introdutório da Simplilearn SkillUp sobre desenvolvimento web com Python e o framework Django."
+      },
+      "simplilearn-node": {
+        "title": "Getting Started with NodeJS",
+        "description": "Curso introdutório da Simplilearn SkillUp sobre desenvolvimento de aplicações server-side com Node.js."
+      },
+      "alura-ai": {
+        "title": "Imersão Inteligência Artificial – 2ª Edição",
+        "description": "Imersão da Alura em parceria com o Google, com 5 aulas e cerca de 6 horas de conteúdo sobre inteligência artificial e suas aplicações práticas."
+      },
+      "startup-weekend": {
+        "title": "Startup Weekend Garopaba",
+        "description": "Certificado de participação no Startup Weekend Garopaba, com 54 horas de duração, organizado pelo Nexum Lab em 2023, onde minha equipe conquistou o 3º lugar."
+      }
+    },
+    "button": "CREDENCIAL",
+    "of": "de"
   },
   "experience": {
     "title": "EXPERIÊNCIA",
@@ -192,7 +264,7 @@
       "rec4": "Excelente trabalhar com Thiago, sempre cumpriu todos os prazos e metas, transparente nos procedimentos e boa comunicação.",
       "rec5": "Sou a professora de matemática Miriam Narvaz e tive o previlégio de ter o Thiago como monitor da minha área no IFSC Garopaba. O Thiago era procurado pelos estudantes inclusive na hora do almoço. Sempre muito solicito, dedicado e extremamente detalhista nas explicações para com todos (as), que o procuravam. Gratidão por tanto e por tudo Thiago."
     },
-    "roles":{
+    "roles": {
       "rec1": "Desenvolvedora Frontend",
       "rec2": "Desenvolvedor Backend",
       "rec3": "Desenvolvedor Sênior Full Stack",
@@ -202,7 +274,7 @@
     "more": "VER MAIS",
     "less": "VER MENOS"
   },
-  "achievements":{
+  "achievements": {
     "title": "CONQUISTAS",
     "descriptions": {
       "1": "Estou há mais de um ano na empresa, onde tive minha maior evolução profissional. Atuei em praticamente todo o ciclo de desenvolvimento, adquirindo experiência em frontend, backend, banco de dados e infraestrutura, além de suporte e atendimento ao cliente.",

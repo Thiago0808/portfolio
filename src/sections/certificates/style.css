@@ -1,0 +1,30 @@
+.certificates{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+@media (max-width: 1000px) {
+  .certificates{
+      width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .certificates{
+      width: 100%;
+  }
+}
+
+.certificates-counter {
+  margin: 0.8rem 0 0;
+  padding: 0.3rem 0.9rem;
+  color: white;
+  background-color: #1C2128;
+  border: 1px solid #5A37A6;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}

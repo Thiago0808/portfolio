@@ -1,0 +1,92 @@
+.certificate-card-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.certificate-card-inside-container {
+  width: 70%;
+  padding: 1rem;
+  background-color: #1C2128;
+  color: white;
+  border-radius: 1.5rem;
+}
+
+.certificate-card-image {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background-color: #000;
+}
+
+.certificate-card-image .react-pdf__Document {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.certificate-card-image canvas {
+  display: block;
+}
+
+.certificate-card-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem 1rem 2.5rem;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0)
+  );
+
+  text-align: left;
+}
+
+.certificate-card-title h2 {
+  margin: 0;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.certificate-card-info {
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.certificate-card-info p {
+  margin: 0;
+}
+
+.certificate-card-button {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  z-index: 1;
+  padding: 0.4rem 0.9rem;
+  color: white;
+  background-color: #5A37A6;
+  border-radius: 8px;
+  font-size: clamp(0.75rem, 1.5vw, 0.9rem);
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 1000px) {
+  .certificate-card-inside-container {
+    width: 85%;
+  }
+}
+
+@media (max-width: 600px) {
+  .certificate-card-inside-container {
+    width: 95%;
+  }
+}

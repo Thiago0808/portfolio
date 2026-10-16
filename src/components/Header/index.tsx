@@ -54,6 +54,7 @@ const Header: React.FC<HeaderProps> = ({ language, setLanguage }) => {
         <a href="#skills">{content.skills}</a>
         <a href="#projects">{content.projects}</a>
         <a href="#education">{content.education}</a>
+        <a href="#certificates">{content.certificates}</a>
         <a href="#experience">{content.experience}</a>
         <a href="#recommendations">{content.recommendations}</a>
         <a href="#achievements">{content.achievements}</a>
