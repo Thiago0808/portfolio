@@ -1,3 +1,4 @@
+import efsetEnglishPdf from "../assets/pdf/certificates/efset-english.pdf";
 import bluepexPdf from "../assets/pdf/certificates/bluepex.pdf";
 import bluepexOpenCommunityPdf from "../assets/pdf/certificates/bluepex-open-community.pdf";
 import bluepexNetworksPdf from "../assets/pdf/certificates/bluepex-networks.pdf";
@@ -17,6 +18,7 @@ import startupWeekendPdf from "../assets/pdf/certificates/startup-weekend.pdf";
 
 export interface CertificateItem {
   id:
+    | "efset-english"
     | "bluepex"
     | "bluepex-open-community"
     | "bluepex-networks"
@@ -38,6 +40,11 @@ export interface CertificateItem {
 }
 
 export const certificatesContent: CertificateItem[] = [
+  {
+    id: "efset-english",
+    file: efsetEnglishPdf,
+    credential: "https://cert.efset.org/iQYKjR",
+  },
   {
     id: "bluepex",
     file: bluepexPdf,

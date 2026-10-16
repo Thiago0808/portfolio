@@ -116,6 +116,10 @@
   "certificates": {
     "title": "CERTIFICATES",
     "items": {
+      "efset-english": {
+        "title": "EF SET English Certificate | C2 Proficient",
+        "description": "Standardized English test by EF SET with a score of 76/100, level C2 Proficient on the Common European Framework of Reference (CEFR), with C2 in both Reading (78) and Listening (74). Awarded in January 2026."
+      },
       "bluepex": {
         "title": "BluePex® Certified Cybersecurity Framework Professional",
         "description": "Certification covering the nine pillars of the BluePex® Cybersecurity Framework: software and hardware inventory, Firewall/UTM, antivirus (EDR), email security, update management, backup, credential control, people management and incident/ticket management, aligned with standards such as ISO, NIST and LGPD."
