@@ -357,6 +357,11 @@
         "title": "Pense em Python: Pense como um Cientista da Computação",
         "genre": "Linguagem de Programação",
         "description": "Uma introdução acessível à programação com Python, voltada para quem deseja pensar computacionalmente e resolver problemas de forma estruturada, atualizada para Python 3."
+      },
+      "14": {
+        "title": "Test-Driven Development: Teste e Design no Mundo Real com Java",
+        "genre": "Engenharia de Software",
+        "description": "Um guia prático de TDD em Java, mostrando como escrever os testes primeiro leva a um código melhor projetado, com exemplos de testes de unidade, mocks, refatoração e como o feedback dos testes orienta o design das classes."
       }
     }
   },

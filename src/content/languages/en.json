@@ -357,6 +357,11 @@
         "title": "Think Python: How to Think Like a Computer Scientist",
         "genre": "Programming Language",
         "description": "An accessible introduction to programming with Python, aimed at those who want to think computationally and solve problems in a structured way, updated for Python 3."
+      },
+      "14": {
+        "title": "Test-Driven Development: Testing and Design in the Real World with Java",
+        "genre": "Software Engineering",
+        "description": "A practical guide to TDD in Java, showing how writing tests first leads to better-designed code, with hands-on examples of unit tests, mocks, refactoring and how test feedback drives class design."
       }
     }
   },
